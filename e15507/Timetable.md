@@ -71,11 +71,22 @@
 ### Hardware Setup
 - [ ] Build stand for HPGe
 ### Electronics Setup
+- [ ] Run cables between Data U and vault
+- [ ] Run lines between FP bax and data U
+- [ ] Patch lines together
+- [ ] Measure delay and set Windows for FP MCP
 
 ## Week 0 (6/10 - 6/14)
 ### Hardware Setup
-
+- [ ] Install HPGe
+- [ ] Calibrate HPGe
+- [ ] Calibration pulser of ICs
+- [ ] Calibration pulser of Si
 ### Electronics Setup
+- [ ] Verify HPGe DAQ with alpha source
+- [ ] Write Spectcl scripts for dE-ToF plots
 
 ## Expirement (6/16-6/18)
+- [ ] Ramp MCP voltages with stable beam
+- [ ] Verify one blob with PiD with stable
 
