@@ -20,6 +20,8 @@ Check when it has been packed and is ready to go out to the car. Stack everythin
 - [ ] Hardware to attach preamps to IC mounts
 - [ ] IC Preamps
 - [ ] Pocket pulser
+- [ ] Extra cable
+- [ ] Extra gas connections
 
 ## Things to pack after pressure test
 - [ ] Gas handling system (GHS)
@@ -29,3 +31,5 @@ Check when it has been packed and is ready to go out to the car. Stack everythin
 - [ ] IC in their box
 - [ ] IC parts for repair
 - [ ] Zibi thermocouple gauge
+- [ ] P10 regulator
+- [ ] Isobutane regulator
