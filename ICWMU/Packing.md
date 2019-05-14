@@ -2,15 +2,15 @@
 Check when it has been packed and is ready to go out to the car. Stack everything in the corner by the chiller and computer before checking off
 
 ## Things to pack now
-- [ ] LEMO and SHV cables
-- [ ] Various buttons, barels, and terminators
-- [ ] NIM electronic modules
-- [ ] VME electronic modules
-- [ ] Cable driver
-- [ ] Ribbon cables for DAQ
-- [ ] Chiller
-- [ ] Chiller connections (including extra tubing)
-- [ ] Cooling bar
+- [x] LEMO and SHV cables
+- [x] Various buttons, barels, and terminators
+- [x] NIM electronic modules
+- [x] VME electronic modules
+- [x] Cable driver
+- [x] Ribbon cables for DAQ
+- [x] Chiller
+- [x] Chiller connections (including extra tubing)
+- [x] Cooling bar
 - [ ] Hardware to mount cooling bar
 - [ ] Source stand
 - [ ] Hardware to attach IC to mounts
@@ -19,8 +19,8 @@ Check when it has been packed and is ready to go out to the car. Stack everythin
 - [ ] Plate legs
 - [ ] Hardware to attach preamps to IC mounts
 - [ ] IC Preamps
-- [ ] Pocket pulser
-- [ ] Extra cable
+- [x] Pocket pulser
+- [x] Extra cable
 - [ ] Extra gas connections
 
 ## Things to pack after pressure test
