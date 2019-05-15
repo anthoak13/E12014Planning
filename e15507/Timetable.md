@@ -3,8 +3,8 @@
 ### Outstanding questions
 - [ ] When will Greg move his stuff out of S2?
   - Kyle emailing Mark? and Greg
-- [ ] Need a beamline -> iso 100 adapter to couple chamber, and Hornet
-  - Kyle asking beta group
+- [x] Need a beamline -> iso 100 adapter to couple chamber, and Hornet
+  - Will get Friday
 - [ ] When can we borrow the Masytecs from Thomas?
   - Kyle asking
 - [x] Is there someone who can be in charge of the electronics?
@@ -16,69 +16,71 @@
 
 ## Week 4 (5/13 - 5/17)
 ### Hardware Setup
-- [ ] Move TAMU chamber to S2 5/15
-- [ ] Attach both crosses to TAMU in vault 5/15
-- [ ] Move both roughing pumps to S2 5/17
-- [ ] Move both turbo pumps to S2 5/17
-- [ ] Attach pumps w/o GHS 5/17
-- [ ] Attach Hornet 5/17
-- [ ] Pressure test empty and not coupled over weekend 5/17
+- [x] Move TAMU chamber to S2 5/15
+- [ ] Attach both crosses to TAMU in vault 5/17 (JW/AP)
+- [ ] Move both roughing pumps to S2 5/17 (JW/AP)
+- [ ] Move both turbo pumps to S2 5/17 (JW/AP)
+- [ ] Attach pumps w/o GHS 5/17 (JW/AP)
+- [ ] Attach Hornet 5/17 (JW/AP)
+- [ ] Pressure test empty and not coupled over weekend 5/17 (KB)
 
 ### Electronics Setup
-- [ ] Move a rack with pressure gauge to S2 5/17
-- [ ] Talk to Jim V about reducing gain in cable driver 5/17
+- [ ] Move a rack with pressure gauge to S2 5/17 (JW/AP)
+- [ ] Talk to Jim V about reducing gain in cable driver 5/17 (AA/BL)
 
 ## Week 3 (5/20 - 5/24)
 ### Hardware Setup
-- [ ] Couple to beam line 5/20
-- [ ] Verify flanges are correct 5/20
-- [ ] Move P-10 bottle to S2 vault 5/20
-- [ ] Vacuum test while empty 5/20 - 5/22
-- [ ] Unpack from WMU Test 5/22
+- [ ] Couple to beam line 5/20 (JW/AP/AA)
+- [ ] Verify flanges are correct 5/20 (AA)
+- [ ] Move P-10 bottle to S2 vault 5/20 (AA)
+- [ ] Vacuum test while empty 5/20 - 5/22 (JW/AP/AA)
+- [ ] Unpack from WMU Test 5/21 (JW/AP/AA/CN)
   - [ ] GHS to S2
   - [ ] Gas connections to S2
   - [ ] Chiller to S2
-- [ ] Attach GHS with no IC 5/23
-- [ ] Attach MCP mounting hardware 5/23
-- [ ] Redo the chamber foil 5/24
-- [ ] Add the bypass to the chamber 5/24
-- [ ] Add ICs and pressure test 5/24
+- [ ] Attach GHS with no IC 5/22 (JW/AP)
+- [ ] Attach MCP mounting hardware 5/22 (JW/AP/AA)
+- [ ] Redo the chamber foil 5/23 (JW/AA)
+- [ ] Add the bypass to the chamber 5/23 (JW/AP/AA)
+- [ ] Add ICs and pressure test 5/23-5/24 (JW/AP/AA)
 
 ### Electronics Setup
-- [ ] Isolation test of chamber 5/20
-- [ ] Move the other electronic rack to S2 5/20
-- [ ] Add the VME modules 5/20
-- [ ] Setup the DAQ again 5/22
-- [ ] Verify DAQ with pocket pulser (MCP) 5/23
-- [ ] Verify IC DAQ with test board 5/23
-- [ ] Add attenuation to ICs 5/24
+- [ ] Isolation test of chamber 5/20 (CN/FT)
+- [ ] Move the other electronic rack to S2 5/20 (CN/FT)
+- [ ] Add the VME modules 5/20 (CN/FT)
+- [ ] Setup the DAQ again 5/22 (AA)
+- [ ] Verify DAQ with pocket pulser (MCP) 5/23 (CN/FT)
+- [ ] Verify IC electronics (NC/FT)
+- [ ] Verify IC DAQ with test board 5/23 (AA)
+- [ ] Identify amount of attenuation needed for ICs 5/24 (AA)
+- [ ] Add attenuation to ICs 5/24 (AA)
 
 ## Week 2 (5/27 - 5/31)
 ### Hardware Setup
-- [ ] Add the MCP 5/27
-- [ ] Align the MCP with the telescope 5/27
-- [ ] Add alpha source 5/27
-- [ ] Alpha test MCP 5/28
-- [ ] Remove the alpha source 5/28
-- [ ] Add the chamber foil 5/28
-- [ ] Re-add the ICs and align 5/28
-- [ ] Add the cooling bar 5/28
-- [ ] Pressure test with final connections 5/28-5/29.
-- [ ] Add downstream Si 5/29
-- [ ] Pump down in "statis" mode 5/30
+- [ ] Add the MCP 5/27 (JW/AA)
+- [ ] Align the MCP with the telescope 5/27 (JW/AP/AA)
+- [ ] Add alpha source 5/27 (KB)
+- [ ] Alpha test MCP 5/28 (JW/AP/AA)
+- [ ] Remove the alpha source 5/28 (KB)
+- [ ] Add the chamber foil 5/28 (JW/AP)
+- [ ] Re-add the ICs and align 5/28 (JW/AP/AA)
+- [ ] Add the cooling bar 5/28 (JW/AP)
+- [ ] Pressure test with final connections 5/28-5/29 (JW/AP/AA)
+- [ ] Add downstream Si 5/29 (AA/KB/CN)
+- [ ] Pump down in "statis" mode 5/30 (JW/AP/AA)
 ### Electronics Setup
-- [ ] Have DAQ with MCP signal function by 5/28
-- [ ] Full pulser test of IC DAQ with attenuation 5/29
-- [ ] Pulser test of Si stack 5/30
+- [ ] Have DAQ with MCP signal function by 5/28 (CN/FT/AA)
+- [ ] Full pulser test of IC DAQ with attenuation 5/29 (CN/FT)
+- [ ] Pulser test of Si stack 5/30 (CN/FT)
 
 ## Week 1 (6/3 - 6/7)
 ### Hardware Setup
-- [ ] Build stand for HPGe
+- [ ] Build stand for HPGe (SW)
 ### Electronics Setup
-- [ ] Run cables between Data U and vault
-- [ ] Run lines between FP bax and data U
-- [ ] Patch lines together
-- [ ] Measure delay and set Windows for FP MCP
+- [ ] Run cables between Data U and vault (CN/FT)
+- [ ] Run lines between FP box and data U (KB/JW/AP)
+- [ ] Patch lines together (KB/JW/AP)
+- [ ] Measure delay and set Windows for FP MCP (JW/AP/AA)
 
 ## Week 0 (6/10 - 6/14)
 ### Hardware Setup
