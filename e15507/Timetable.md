@@ -2,12 +2,16 @@
 
 ### Outstanding questions
 - [ ] When will Greg move his stuff out of S2?
-- [ ] Need a beamline -> iso 100 adapter to couple chamber
-- [ ] Can we borrow the hornet by this Friday 5/17?
+  - Kyle emailing Mark? and Greg
+- [ ] Need a beamline -> iso 100 adapter to couple chamber, and Hornet
+  - Kyle asking beta group
 - [ ] When can we borrow the Masytecs from Thomas?
-- [ ] Is there someone who can be in charge of the electronics?
+  - Kyle asking
+- [x] Is there someone who can be in charge of the electronics?
   - The DAQ config is already written and the control of HV for IC and MCP is solved downstream
-- [ ] When will we get the HPGe? Sometime around 6/13 or 14?
+  - Chenyang and Fanurs
+- [x] When will we get the HPGe?
+  - Hopefully Friday before 6/14 
 
 
 ## Week 4 (5/13 - 5/17)
