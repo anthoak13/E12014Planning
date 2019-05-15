@@ -33,3 +33,4 @@ Check when it has been packed and is ready to go out to the car. Stack everythin
 - [ ] Zibi thermocouple gauge
 - [ ] P10 regulator
 - [ ] Isobutane regulator
+- [ ] Explosive gas detector
