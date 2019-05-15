@@ -12,10 +12,10 @@
 
 ## Week 4 (5/13 - 5/17)
 ### Hardware Setup
-- [ ] Attach both crosses to TAMU 5/15
-- [ ] Move TAMU chamber to S2 5/16
-- [ ] Move both roughing pumps to S2 5/16
-- [ ] Move both turbo pumps to S2 5/16
+- [ ] Move TAMU chamber to S2 5/15
+- [ ] Attach both crosses to TAMU in vault 5/15
+- [ ] Move both roughing pumps to S2 5/17
+- [ ] Move both turbo pumps to S2 5/17
 - [ ] Attach pumps w/o GHS 5/17
 - [ ] Attach Hornet 5/17
 - [ ] Pressure test empty and not coupled over weekend 5/17
