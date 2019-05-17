@@ -18,7 +18,7 @@
 ### Hardware Setup
 - [x] Move TAMU chamber to S2 5/15
 - [ ] Attach both crosses to TAMU in vault 5/17 (JW/AP)
-- [ ] Move both roughing pumps to S2 5/17 (JW/AP)
+- [x] Move both roughing pumps to S2 5/17 (JW/AP)
 - [ ] Move both turbo pumps to S2 5/17 (JW/AP)
 - [ ] Attach pumps w/o GHS 5/17 (JW/AP)
 - [ ] Attach Hornet 5/17 (JW/AP)
