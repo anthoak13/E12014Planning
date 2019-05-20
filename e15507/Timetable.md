@@ -17,21 +17,21 @@
 ## Week 4 (5/13 - 5/17)
 ### Hardware Setup
 - [x] Move TAMU chamber to S2 5/15
-- [ ] Attach both crosses to TAMU in vault 5/17 (JW/AP)
+- [x] Attach both crosses to TAMU in vault 5/17 (JW/AP)
 - [x] Move both roughing pumps to S2 5/17 (JW/AP)
-- [ ] Move both turbo pumps to S2 5/17 (JW/AP)
-- [ ] Attach pumps w/o GHS 5/17 (JW/AP)
-- [ ] Attach Hornet 5/17 (JW/AP)
-- [ ] Pressure test empty and not coupled over weekend 5/17 (KB)
+- [x] Move both turbo pumps to S2 5/17 (JW/AP)
+- [x] Attach pumps w/o GHS 5/17 (JW/AP)
+- [x] Attach Hornet 5/17 (JW/AP)
+- [x] Pressure test empty and not coupled over weekend 5/17 (KB)
 
 ### Electronics Setup
-- [ ] Move a rack with pressure gauge to S2 5/17 (JW/AP)
+- [x] Move a rack with pressure gauge to S2 5/17 (JW/AP)
 - [ ] Talk to Jim V about reducing gain in cable driver 5/17 (AA/BL)
 
 ## Week 3 (5/20 - 5/24)
 ### Hardware Setup
 - [ ] Couple to beam line 5/20 (JW/AP/AA)
-- [ ] Verify flanges are correct 5/20 (AA)
+- [x] Verify flanges are correct 5/20 (AA)
 - [ ] Move P-10 bottle to S2 vault 5/20 (AA)
 - [ ] Vacuum test while empty 5/20 - 5/22 (JW/AP/AA)
 - [ ] Unpack from WMU Test 5/21 (JW/AP/AA/CN)
