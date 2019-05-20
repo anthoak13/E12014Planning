@@ -39,7 +39,7 @@
   - [ ] Gas connections to S2
   - [ ] Chiller to S2
 - [ ] Attach GHS with no IC 5/22 (JW/AP)
-- [ ] Attach MCP mounting hardware 5/22 (JW/AP/AA)
+- [x] Attach MCP mounting hardware 5/22 (JW/AP/AA)
 - [ ] Redo the chamber foil 5/23 (JW/AA)
 - [ ] Add the bypass to the chamber 5/23 (JW/AP/AA)
 - [ ] Add ICs and pressure test 5/23-5/24 (JW/AP/AA)
