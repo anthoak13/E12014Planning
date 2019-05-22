@@ -12,6 +12,7 @@
   - Chenyang and Fanurs
 - [x] When will we get the HPGe?
   - Hopefully Friday before 6/14 
+- [ ] Talk to Elaine about borrowing the old Si as a beamstop
 
 
 ## Week 4 (5/13 - 5/17)
@@ -55,6 +56,7 @@
 
 ## Week 2 (5/27 - 5/31)
 ### Hardware Setup
+- [ ] Repair the one cable on the MCP
 - [ ] Add the MCP 5/27 (JW/AA)
 - [ ] Align the MCP with the telescope 5/27 (JW/AP/AA)
 - [ ] Add alpha source 5/27 (KB)
