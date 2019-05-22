@@ -30,29 +30,27 @@
 
 ## Week 3 (5/20 - 5/24)
 ### Hardware Setup
-- [ ] Couple to beam line 5/20 (JW/AP/AA)
+- [ ] Couple to beam line 5/22 (JW/AP/AA)
 - [x] Verify flanges are correct 5/20 (AA)
-- [ ] Move P-10 bottle to S2 vault 5/20 (AA)
+- [ ] Move P-10 bottle to S2 vault 5/22 (AA)
 - [ ] Vacuum test while empty 5/20 - 5/22 (JW/AP/AA)
-- [ ] Unpack from WMU Test 5/21 (JW/AP/AA/CN)
+- [ ] Unpack from WMU Test 5/23 (JW/AP/AA/CN)
   - [ ] GHS to S2
   - [ ] Gas connections to S2
   - [ ] Chiller to S2
-- [ ] Attach GHS with no IC 5/22 (JW/AP)
+- [ ] Attach GHS with no IC 5/24 (JW/AP)
 - [x] Attach MCP mounting hardware 5/22 (JW/AP/AA)
-- [ ] Redo the chamber foil 5/23 (JW/AA)
-- [ ] Add the bypass to the chamber 5/23 (JW/AP/AA)
-- [ ] Add ICs and pressure test 5/23-5/24 (JW/AP/AA)
+- [ ] Redo the chamber foil 5/24 (JW/AA)
+- [ ] Add the bypass to the chamber 5/24 (JW/AP/AA)
+- [ ] Add ICs and pressure test 5/24 (JW/AP/AA)
 
 ### Electronics Setup
 - [ ] Isolation test of chamber 5/20 (CN/FT)
-- [ ] Move the other electronic rack to S2 5/20 (CN/FT)
+- [x] Move the other electronic rack to S2 5/20 (CN/FT)
 - [ ] Add the VME modules 5/20 (CN/FT)
-- [ ] Setup the DAQ again 5/22 (AA)
-- [ ] Verify DAQ with pocket pulser (MCP) 5/23 (CN/FT)
-- [ ] Verify IC electronics (NC/FT)
-- [ ] Verify IC DAQ with test board 5/23 (AA)
+- [ ] Verify IC electronics 5/22 (NC/FT)
 - [ ] Identify amount of attenuation needed for ICs 5/24 (AA)
+- [ ] Setup the DAQ again 5/24 (AA)
 - [ ] Add attenuation to ICs 5/24 (AA)
 
 ## Week 2 (5/27 - 5/31)
@@ -69,6 +67,8 @@
 - [ ] Add downstream Si 5/29 (AA/KB/CN)
 - [ ] Pump down in "statis" mode 5/30 (JW/AP/AA)
 ### Electronics Setup
+- [ ] Verify DAQ with pocket pulser (MCP) 5/27 (CN/FT)
+- [ ] Verify IC DAQ with test board 5/27 (AA)
 - [ ] Have DAQ with MCP signal function by 5/28 (CN/FT/AA)
 - [ ] Full pulser test of IC DAQ with attenuation 5/29 (CN/FT)
 - [ ] Pulser test of Si stack 5/30 (CN/FT)
