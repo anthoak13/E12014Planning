@@ -1,7 +1,7 @@
 # Timetable for the setup of e15507
 
 ### Outstanding questions
-- [ ] When will Greg move his stuff out of S2?
+- [x] When will Greg move his stuff out of S2?
   - Kyle emailing Mark? and Greg
 - [x] Need a beamline -> iso 100 adapter to couple chamber, and Hornet
   - Will get Friday
