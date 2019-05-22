@@ -27,36 +27,37 @@
 
 ### Electronics Setup
 - [x] Move a rack with pressure gauge to S2 5/17 (JW/AP)
-- [ ] Talk to Jim V about reducing gain in cable driver 5/17 (AA/BL)
+- [x] Talk to Jim V about reducing gain in cable driver 5/17 (AA/BL)
 
 ## Week 3 (5/20 - 5/24)
 ### Hardware Setup
-- [ ] Couple to beam line 5/22 (JW/AP/AA)
+- [x] Couple to beam line 5/22 (JW/AP/AA)
 - [x] Verify flanges are correct 5/20 (AA)
 - [ ] Move P-10 bottle to S2 vault 5/22 (AA)
-- [ ] Vacuum test while empty 5/20 - 5/22 (JW/AP/AA)
+- [x] Vacuum test while empty 5/20 - 5/22 (JW/AP/AA)
 - [ ] Unpack from WMU Test 5/23 (JW/AP/AA/CN)
   - [ ] GHS to S2
   - [ ] Gas connections to S2
   - [ ] Chiller to S2
 - [ ] Attach GHS with no IC 5/24 (JW/AP)
 - [x] Attach MCP mounting hardware 5/22 (JW/AP/AA)
+- [ ] Repair the cable on the MCP 5/24 (JW/AA)
+- [ ] Check the upstream chamber alignment with MCP (JW/AP/AA) 
 - [ ] Redo the chamber foil 5/24 (JW/AA)
-- [ ] Add the bypass to the chamber 5/24 (JW/AP/AA)
+- [ ] Add the bypass to the chamber 5/24 (JW/AP/KW)
 - [ ] Add ICs and pressure test 5/24 (JW/AP/AA)
 
 ### Electronics Setup
-- [ ] Isolation test of chamber 5/20 (CN/FT)
+- [x] Isolation test of chamber 5/20 (CN/FT)
 - [x] Move the other electronic rack to S2 5/20 (CN/FT)
-- [ ] Add the VME modules 5/20 (CN/FT)
+- [x] Add the VME modules 5/20 (CN/FT)
 - [ ] Verify IC electronics 5/22 (NC/FT)
 - [ ] Identify amount of attenuation needed for ICs 5/24 (AA)
-- [ ] Setup the DAQ again 5/24 (AA)
+- [x] Setup the DAQ again 5/24 (AA)
 - [ ] Add attenuation to ICs 5/24 (AA)
 
 ## Week 2 (5/27 - 5/31)
 ### Hardware Setup
-- [ ] Repair the one cable on the MCP
 - [ ] Add the MCP 5/27 (JW/AA)
 - [ ] Align the MCP with the telescope 5/27 (JW/AP/AA)
 - [ ] Add alpha source 5/27 (KB)
