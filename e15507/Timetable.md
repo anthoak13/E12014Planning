@@ -33,7 +33,7 @@
 ### Hardware Setup
 - [x] Couple to beam line 5/22 (JW/AP/AA)
 - [x] Verify flanges are correct 5/20 (AA)
-- [ ] Move P-10 bottle to S2 vault 5/22 (AA)
+- [ ] Move P-10 bottle to S2 vault 5/24 (AA)
 - [x] Vacuum test while empty 5/20 - 5/22 (JW/AP/AA)
 - [ ] Unpack from WMU Test 5/23 (JW/AP/AA/CN)
   - [ ] GHS to S2
@@ -44,7 +44,7 @@
 - [ ] Repair the cable on the MCP 5/24 (JW/AA)
 - [ ] Check the upstream chamber alignment with MCP (JW/AP/AA) 
 - [ ] Redo the chamber foil 5/24 (JW/AA)
-- [ ] Add the bypass to the chamber 5/24 (JW/AP/KW)
+- [ ] Add the bypass to the chamber 5/24 (JW/AP/FT)
 - [ ] Add ICs and pressure test 5/24 (JW/AP/AA)
 
 ### Electronics Setup
