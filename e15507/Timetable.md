@@ -38,9 +38,10 @@
 - [x] Attach MCP mounting hardware 5/22 (JW/AP/AA)
 - [ ] Repair the cable on the MCP 5/24 (JW/AA)
 - [ ] Check the upstream chamber alignment with MCP (JW/AP/AA) 
-- [ ] Redo the chamber foil 5/24 (JW/AA)
+- [x] Redo the chamber foil 5/24 (JW/AA)
 - [ ] Add the bypass to the chamber 5/24 (JW/AP/FT)
 - [ ] Add the MCP 5/24 (JW/AA)
+- [ ] Add a source to alpha test 5/24 (KB)
 
 ### Electronics Setup
 - [x] Isolation test of chamber 5/20 (CN/FT)
