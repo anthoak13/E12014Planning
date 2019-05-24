@@ -5,7 +5,7 @@
   - Kyle emailing Mark? and Greg
 - [x] Need a beamline -> iso 100 adapter to couple chamber, and Hornet
   - Will get Friday
-- [ ] When can we borrow the Masytecs from Thomas?
+- [x] When can we borrow the Masytecs from Thomas?
   - Kyle asking
 - [x] Is there someone who can be in charge of the electronics?
   - The DAQ config is already written and the control of HV for IC and MCP is solved downstream
