@@ -35,17 +35,12 @@
 - [x] Verify flanges are correct 5/20 (AA)
 - [ ] Move P-10 bottle to S2 vault 5/24 (AA)
 - [x] Vacuum test while empty 5/20 - 5/22 (JW/AP/AA)
-- [ ] Unpack from WMU Test 5/23 (JW/AP/AA/CN)
-  - [ ] GHS to S2
-  - [ ] Gas connections to S2
-  - [ ] Chiller to S2
-- [ ] Attach GHS with no IC 5/24 (JW/AP)
 - [x] Attach MCP mounting hardware 5/22 (JW/AP/AA)
 - [ ] Repair the cable on the MCP 5/24 (JW/AA)
 - [ ] Check the upstream chamber alignment with MCP (JW/AP/AA) 
 - [ ] Redo the chamber foil 5/24 (JW/AA)
 - [ ] Add the bypass to the chamber 5/24 (JW/AP/FT)
-- [ ] Add ICs and pressure test 5/24 (JW/AP/AA)
+- [ ] Add the MCP 5/24 (JW/AA)
 
 ### Electronics Setup
 - [x] Isolation test of chamber 5/20 (CN/FT)
@@ -58,7 +53,6 @@
 
 ## Week 2 (5/27 - 5/31)
 ### Hardware Setup
-- [ ] Add the MCP 5/27 (JW/AA)
 - [ ] Align the MCP with the telescope 5/27 (JW/AP/AA)
 - [ ] Add alpha source 5/27 (KB)
 - [ ] Alpha test MCP 5/28 (JW/AP/AA)
@@ -69,6 +63,14 @@
 - [ ] Pressure test with final connections 5/28-5/29 (JW/AP/AA)
 - [ ] Add downstream Si 5/29 (AA/KB/CN)
 - [ ] Pump down in "statis" mode 5/30 (JW/AP/AA)
+#### IC Stuff time tbd
+- [ ] Unpack from WMU Test 5/29 (JW/AP/AA/CN)
+  - [ ] GHS to S2
+  - [ ] Gas connections to S2
+  - [ ] Chiller to S2
+- [ ] Attach GHS with no IC 5/30 (JW/AP)
+- [ ] Add ICs and pressure test 5/30 (JW/AP/AA)
+
 ### Electronics Setup
 - [ ] Verify DAQ with pocket pulser (MCP) 5/27 (CN/FT)
 - [ ] Verify IC DAQ with test board 5/27 (AA)
