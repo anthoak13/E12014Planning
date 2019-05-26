@@ -33,15 +33,15 @@
 ### Hardware Setup
 - [x] Couple to beam line 5/22 (JW/AP/AA)
 - [x] Verify flanges are correct 5/20 (AA)
-- [ ] Move P-10 bottle to S2 vault 5/24 (AA)
+- [x] Move P-10 bottle to S2 vault 5/24 (AA)
 - [x] Vacuum test while empty 5/20 - 5/22 (JW/AP/AA)
 - [x] Attach MCP mounting hardware 5/22 (JW/AP/AA)
-- [ ] Repair the cable on the MCP 5/24 (JW/AA)
-- [ ] Check the upstream chamber alignment with MCP (JW/AP/AA) 
+- [x] Repair the cable on the MCP 5/24 (JW/AA)
+- [x] Check the upstream chamber alignment with MCP (JW/AP/AA) 
 - [x] Redo the chamber foil 5/24 (JW/AA)
 - [ ] Add the bypass to the chamber 5/24 (JW/AP/FT)
-- [ ] Add the MCP 5/24 (JW/AA)
-- [ ] Add a source to alpha test 5/24 (KB)
+- [x] Add the MCP 5/24 (JW/AA)
+- [x] Add a source to alpha test 5/24 (KB)
 
 ### Electronics Setup
 - [x] Isolation test of chamber 5/20 (CN/FT)
@@ -55,7 +55,7 @@
 ## Week 2 (5/27 - 5/31)
 ### Hardware Setup
 - [ ] Align the MCP with the telescope 5/27 (JW/AP/AA)
-- [ ] Add alpha source 5/27 (KB)
+- [ ] Modify MCP so it fits backwards 5/27
 - [ ] Alpha test MCP 5/28 (JW/AP/AA)
 - [ ] Remove the alpha source 5/28 (KB)
 - [ ] Add the chamber foil 5/28 (JW/AP)
