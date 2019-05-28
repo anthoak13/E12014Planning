@@ -51,12 +51,12 @@
 
 ## Week 2 (5/27 - 5/31)
 ### Hardware Setup
-- [ ] Modify upstream MCP so it fits backwards 5/27 (AA)
+- [x] Modify upstream MCP so it fits backwards 5/27 (AA)
 - [ ] Alpha test MCP 5/28-5/29 (JW/AP/AA)
 - [ ] Remove the alpha source 5/29 (KB)
-- [ ] Modify downstream MCP so it fits backwards (AA)
-- [ ] Add the chamber foil 5/29 (JW/AP)
+- [x] Modify downstream MCP so it fits backwards (AA)
 - [ ] Align the MCP with the telescope 5/29 (JW/AP/AA)
+- [ ] Add the chamber foil 5/29 (JW/AP)
 - [ ] Unpack from WMU Test 5/30 (JW/AP/AA/CN)
   - [ ] GHS to S2
   - [ ] Gas connections to S2
@@ -67,8 +67,10 @@
 - [ ] Add downstream Si 5/31 (AA/KB/CN)
 
 ### Electronics Setup
+- [x] Write interface for Hornet 5/27 (AA)
+- [x] Write vhqControl config files 5/27 (AA)
 - [ ] Verify DAQ with pocket pulser (MCP) 5/27 (CN/FT)
-- [ ] Have DAQ with MCP signal function by 5/28 (CN/FT/AA)
+- [ ] Have DAQ with MCP signal function by 5/29 (CN/FT/AA)
 - [ ] Pulser test of Si stack 5/30 (CN/FT)
 - [ ] Verify IC electronics 5/30 (NC/FT)
 - [ ] Verify IC DAQ with test board 5/31 (AA)
