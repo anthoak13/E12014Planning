@@ -97,6 +97,7 @@
 ## Week 0 (6/10 - 6/14)
 ### Hardware Setup
 - [ ] Install HPGe
+- [ ] Install FP MCP
 - [ ] Calibrate HPGe
 - [ ] Calibration pulser of ICs
 - [ ] Calibration pulser of Si
