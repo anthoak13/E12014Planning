@@ -75,7 +75,8 @@
 - [x] Verify DAQ with pocket pulser (MCP) 5/27 (CN/FT)
 - [ ] Have DAQ with MCP signal function by 5/29 (CN/FT/AA)
 - [ ] Pulser test of Si stack 5/30 (CN/FT)
-- [ ] Verify IC electronics 5/30 (NC/FT)
+- [x] Verify IC electronics 5/30 (NC/FT)
+- [x] Verify Si electronics 5/30 (CN/FT)
 - [ ] Verify IC DAQ with test board 5/31 (AA)
 
 ## Week 1 (6/3 - 6/7)
