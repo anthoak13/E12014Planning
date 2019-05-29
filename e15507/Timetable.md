@@ -57,19 +57,22 @@
 - [x] Modify downstream MCP so it fits backwards (AA)
 - [ ] Align the MCP with the telescope 5/29 (JW/AP/AA)
 - [ ] Add the chamber foil 5/29 (JW/AP)
+- [ ] Gather electronics for FP 5/29 (AA)
 - [ ] Unpack from WMU Test 5/30 (JW/AP/AA/CN)
   - [ ] GHS to S2
   - [ ] Gas connections to S2
   - [ ] Chiller to S2
 - [ ] Re-add the ICs and align 5/31 (JW/AP/AA)
 - [ ] Attach GHS with no IC 5/31 (JW/AP)
+- [ ] Pressure test new gas connections 5/31 (AA/JW/AP)
+- [ ] Modify ICs with new connections 5/31 (AA)
 - [ ] Add ICs and pressure test 5/31 (JW/AP/AA)
 - [ ] Add downstream Si 5/31 (AA/KB/CN)
 
 ### Electronics Setup
 - [x] Write interface for Hornet 5/27 (AA)
 - [x] Write vhqControl config files 5/27 (AA)
-- [ ] Verify DAQ with pocket pulser (MCP) 5/27 (CN/FT)
+- [x] Verify DAQ with pocket pulser (MCP) 5/27 (CN/FT)
 - [ ] Have DAQ with MCP signal function by 5/29 (CN/FT/AA)
 - [ ] Pulser test of Si stack 5/30 (CN/FT)
 - [ ] Verify IC electronics 5/30 (NC/FT)
