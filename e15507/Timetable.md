@@ -58,16 +58,13 @@
 - [ ] Align the MCP with the telescope 5/29 (JW/AP/AA)
 - [ ] Add the chamber foil 5/29 (JW/AP)
 - [ ] Gather electronics for FP 5/29 (AA)
+- [ ] Test MCP with alpha trigger 5/31 (AA)
 - [x] Unpack from WMU Test 5/30 (JW/AP/AA/CN)
   - [x] GHS to S2
   - [x] Gas connections to S2
   - [x] Chiller to S2
 - [ ] Re-add the ICs and align 5/31 (JW/AP/AA)
-- [ ] Attach GHS with no IC 5/31 (JW/AP)
-- [ ] Pressure test new gas connections 5/31 (AA/JW/AP)
-- [ ] Modify ICs with new connections 5/31 (AA)
-- [ ] Add ICs and pressure test 5/31 (JW/AP/AA)
-- [ ] Add downstream Si 5/31 (AA/KB/CN)
+
 
 ### Electronics Setup
 - [x] Write interface for Hornet 5/27 (AA)
@@ -81,6 +78,10 @@
 
 ## Week 1 (6/3 - 6/7)
 ### Hardware Setup
+- [ ] Attach GHS with no IC 5/31 (JW/AP)
+- [ ] Pressure test new gas connections 5/31 (AA/JW/AP)
+- [ ] Modify ICs with new connections 5/31 (AA)
+- [ ] Add ICs and pressure test 5/31 (JW/AP/AA)
 - [ ] Add the cooling bar 6/3 (JW/AP)
 - [ ] Pressure test with final connections 6/3-6/4 (JW/AP/AA)
 - [ ] Pump down in "statis" mode 6/4 (JW/AP/AA)
@@ -97,6 +98,7 @@
 
 ## Week 0 (6/10 - 6/14)
 ### Hardware Setup
+- [ ] Add downstream Si 5/31 (AA/KB/CN)
 - [ ] Install HPGe
 - [ ] Install FP MCP
 - [ ] Calibrate HPGe
