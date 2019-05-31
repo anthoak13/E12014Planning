@@ -58,10 +58,10 @@
 - [ ] Align the MCP with the telescope 5/29 (JW/AP/AA)
 - [ ] Add the chamber foil 5/29 (JW/AP)
 - [ ] Gather electronics for FP 5/29 (AA)
-- [ ] Unpack from WMU Test 5/30 (JW/AP/AA/CN)
-  - [ ] GHS to S2
-  - [ ] Gas connections to S2
-  - [ ] Chiller to S2
+- [x] Unpack from WMU Test 5/30 (JW/AP/AA/CN)
+  - [x] GHS to S2
+  - [x] Gas connections to S2
+  - [x] Chiller to S2
 - [ ] Re-add the ICs and align 5/31 (JW/AP/AA)
 - [ ] Attach GHS with no IC 5/31 (JW/AP)
 - [ ] Pressure test new gas connections 5/31 (AA/JW/AP)
