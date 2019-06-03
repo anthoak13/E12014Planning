@@ -14,7 +14,7 @@
   - Hopefully Friday before 6/14 
 - [ ] Talk to Elaine about borrowing the old Si as a beamstop (Kyle)
 - [ ] Talk to Jim V about modifying gains on cable driver (Bill)
-- [ ] Zibi comming Tuesdat 6/4
+- [ ] Zibi comming Tuesday 6/4
 - [ ] Who will be expert in
   - [ ] Computer system (DAQ, Hornet GUI, Modified HV control, Django runlog)
   - [ ] MCP and MCP electronics
@@ -74,7 +74,7 @@
 - [x] Write interface for Hornet 5/27 (AA)
 - [x] Write vhqControl config files 5/27 (AA)
 - [x] Verify DAQ with pocket pulser (MCP) 5/27 (CN/FT)
-- [ ] Pulser test of Si stack 5/30 (CN/FT)
+- [x] Pulser test of Si stack 5/30 (CN/FT)
 - [x] Verify IC electronics 5/30 (NC/FT)
 - [x] Verify Si electronics 5/30 (CN/FT)
 
@@ -82,7 +82,7 @@
 ### Hardware Setup
 - [ ] Add T and thermocouple to pump to measure backing pressure 6/3 (FT)
 - [ ] Hook up exhaust tubing for pumps 6/3 (FT)
-- [ ] Repair leak at isolating iso-100 o-ring 6/3 (JW/AP/AA)
+- [x] Repair leak at isolating iso-100 o-ring 6/3 (JW/AP/AA)
 - [ ] Leak test with final connections 6/3 (JW/AP/AA)
 - [ ] Pump down in "statis" mode 6/7 (JW/AP/AA)
 - [x] Build stand for HPGe (SW)
@@ -92,9 +92,10 @@
 - [ ] Identify and fix issue at E-field > 2800V (sparking?) 6/3
 #### Ion Chamber
 - [x] Pressure test new gas connections 5/31 (AA/JW/AP)
-- [ ] Modify ICs with new connections 6/3 (AA)
 - [ ] Repair the new IC 6/3 (AA)
+- [x] Modify new IC with new connections 6/3 (JW)
 - [ ] Repair the old IC 6/3 (AA)
+- [ ] Modify old IC with new connections 6/4 (JW)
 - [ ] Alpha test old IC 6/4 (AA/JW/AP)
 - [ ] Add the chamber foil 6/4 (JW/AP)
 - [ ] Attach GHS with no IC 6/4 (JW/AP)
