@@ -80,6 +80,7 @@
 
 ## Week 1 (6/3 - 6/7)
 ### Hardware Setup
+- [ ] Add T and thermocouple to pump to measure backing pressure 6/3 (FT)
 - [ ] Hook up exhaust tubing for pumps 6/3 (FT)
 - [ ] Repair leak at isolating iso-100 o-ring 6/3 (JW/AP/AA)
 - [ ] Leak test with final connections 6/3 (JW/AP/AA)
