@@ -80,6 +80,8 @@
 
 ## Week 1 (6/3 - 6/7)
 ### Hardware Setup
+- [ ] Repair leak at isolating iso-100 o-ring 6/3 (JW/AP/AA)
+- [ ] Leak test with final connections 6/3 (JW/AP/AA)
 - [ ] Pump down in "statis" mode 6/7 (JW/AP/AA)
 - [x] Build stand for HPGe (SW)
 #### MCP
