@@ -13,8 +13,9 @@
 - [x] When will we get the HPGe?
   - Hopefully Friday before 6/14 
 - [ ] Talk to Elaine about borrowing the old Si as a beamstop (Kyle)
-- [ ] Talk to Jim V about modifying gains on cable driver (Bill)
-- [ ] Zibi comming Tuesday 6/4
+- [x] Talk to Jim V about modifying gains on cable driver (Bill)
+- [ ] Zibi comming Thursday 6/6
+- [ ] Venting only through the interlocked system
 - [ ] Who will be expert in
   - [ ] Computer system (DAQ, Hornet GUI, Modified HV control, Django runlog)
   - [ ] MCP and MCP electronics
