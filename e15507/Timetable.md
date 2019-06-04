@@ -47,7 +47,7 @@
 - [x] Repair the cable on the MCP 5/24 (JW/AA)
 - [x] Check the upstream chamber alignment with MCP (JW/AP/AA) 
 - [x] Redo the chamber foil 5/24 (JW/AA)
-- [ ] Add the bypass to the chamber 5/24 (JW/AP/FT)
+- [x] Add the bypass to the chamber 5/24 (JW/AP/FT)
 - [x] Add the MCP 5/24 (JW/AA)
 - [x] Add a source to alpha test 5/24 (KB)
 
@@ -80,7 +80,7 @@
 
 ## Week 1 (6/3 - 6/7)
 ### Hardware Setup
-- [ ] Add T and thermocouple to pump to measure backing pressure 6/3 (FT)
+- [x] Add T and thermocouple to pump to measure backing pressure 6/3 (FT)
 - [ ] Hook up exhaust tubing for pumps 6/3 (FT)
 - [x] Repair leak at isolating iso-100 o-ring 6/3 (JW/AP/AA)
 - [ ] Leak test with final connections 6/3 (JW/AP/AA)
