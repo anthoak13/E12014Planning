@@ -96,7 +96,7 @@
 - [ ] Repair the new IC 6/3 (AA)
 - [x] Modify new IC with new connections 6/3 (JW)
 - [ ] Repair the old IC 6/3 (AA)
-- [ ] Modify old IC with new connections 6/4 (JW)
+- [x] Modify old IC with new connections 6/4 (JW)
 - [ ] Alpha test old IC 6/4 (AA/JW/AP)
 - [ ] Add the chamber foil 6/4 (JW/AP)
 - [ ] Attach GHS with no IC 6/4 (JW/AP)
