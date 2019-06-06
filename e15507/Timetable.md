@@ -93,7 +93,7 @@
 - [ ] Identify and fix issue at E-field > 2800V (sparking?) 6/3
 #### Ion Chamber
 - [x] Pressure test new gas connections 5/31 (AA/JW/AP)
-- [ ] Repair the new IC 6/3 (AA)
+- [x] Repair the new IC 6/3 (AA)
 - [x] Modify new IC with new connections 6/3 (JW)
 - [ ] Repair the old IC 6/3 (AA)
 - [x] Modify old IC with new connections 6/4 (JW)
@@ -111,8 +111,8 @@
 - [ ] Identify amount of attenuation needed for ICs 6/4 (AA)
 - [ ] Add attenuation to ICs 6/4 (AA)
 - [ ] Full pulser test of IC DAQ with attenuation 6/4-6/5 (CN/FT)
-- [ ] Run cables between Data U and vault (CN/FT)
-- [ ] Set up multiplexer for looking at signals in data U (CN/FT)
+- [x] Run cables between Data U and vault (CN/FT)
+- [x] Set up multiplexer for looking at signals in data U (CN/FT)
 - [x] Run lines between FP box and data U (KB/JW/AP)
 - [x] Patch lines together (KB/JW/AP)
 - [x] Measure delay and set Windows for FP MCP (JW/AP/AA)
