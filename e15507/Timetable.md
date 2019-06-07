@@ -12,10 +12,10 @@
   - Chenyang and Fanurs
 - [x] When will we get the HPGe?
   - Hopefully Friday before 6/14 
-- [ ] Talk to Elaine about borrowing the old Si as a beamstop (Kyle)
+- [x] Talk to Elaine about borrowing the old Si as a beamstop (Kyle)
 - [x] Talk to Jim V about modifying gains on cable driver (Bill)
-- [ ] Zibi comming Thursday 6/6
-- [ ] Venting only through the interlocked system
+- [x] Zibi comming Thursday 6/6
+- [x] Venting only through the interlocked system
 - [ ] Who will be expert in
   - [ ] Computer system (DAQ, Hornet GUI, Modified HV control, Django runlog)
   - [ ] MCP and MCP electronics
@@ -95,7 +95,7 @@
 - [x] Pressure test new gas connections 5/31 (AA/JW/AP)
 - [x] Repair the new IC 6/3 (AA)
 - [x] Modify new IC with new connections 6/3 (JW)
-- [ ] Repair the old IC 6/3 (AA)
+- [ ] Repair the old IC 6/3 (ZC)
 - [x] Modify old IC with new connections 6/4 (JW)
 - [ ] Alpha test old IC 6/4 (AA/JW/AP)
 - [ ] Add the chamber foil 6/4 (JW/AP)
