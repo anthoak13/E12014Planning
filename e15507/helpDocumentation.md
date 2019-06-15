@@ -65,7 +65,10 @@ For offline, the .evt files are located in ~/experiment/run#/
 
 ![SpecTcl Offline](https://github.com/anthoak13/E12014Planning/raw/master/e15507/SpecTclOffline.png)
 
-Data should now be coming in. Every parameter defined in SpecTcl will be written to a TTree with the name `run-#.root` in `~/SpecTcl`. After each run, this should be moved out of this directory to the analysis directory with 
+Data should now be coming in. At list point, you will want to load in and def-files, making sure Cumulative is checked. Now window files can be 
+
+
+Every parameter defined in SpecTcl will be written to a TTree with the name `run-#.root` in `~/SpecTcl`. After each run, this should be moved out of this directory to the analysis directory with 
 ```
 scp ~/SpecTcl/*.root e15507@fishtank:/mnt/analysis/e15507/SpecTclTTree/
 rm ~/SpecTcl/*.root
@@ -84,8 +87,26 @@ To connect to the pulser press the **Connect** button, and then push **Pulse On*
 ![PulserOn](https://github.com/anthoak13/E12014Planning/raw/master/e15507/PulserGUIOn.png)
 
 ### HV control
+The HV control GUI used is a modified version of the standard NSCLDAQ vhqControl. It was changed to add more descriptive channel names. This program works through communication over the fiber optic interface between the DAQ computer and the VME crate. This means that the program has to be run on the DAQ computer that is physically attached to the VME crate. The launch scripts `~/goHVUS` and `~/goHVDS` handle this all for you. The actual program being called is `~/HVcontrol/vhgControl` with the appropiate configuration scripts passed. All of the configuration scripts are located in `~/HVcontrol` if they need to be modified. DO NOT try to change the configuration scripts through the GUI interface!
+
+To launch the voltage control of the focal plane MCP, run `~/goHVUS`. You should see 2 windows pop up that look like
+
+![HVControl](https://raw.githubusercontent.com/anthoak13/E12014Planning/master/e15507/HVControl.png)
+
+The downstream HV control works the same way as the focal plane HV control, but there are three windows. The additional one is for control of the ion chamber bias.
 
 ### Hornet Control
+To launch the ion gauge control run `~/goHornet`. This launches a Tcl GUI written by Adam to monitor the pressure in the MCP and Ion Chamber sections of the chamber. When it launches, you should see a small window with two tabs. It seems to like to crash after being open for a bit, if that happens just close it and reopen it
+
+If the IC is on, it will display and update the pressure every two seconds and look like
+
+![HornetOn](https://raw.githubusercontent.com/anthoak13/E12014Planning/master/e15507/HornetOn.png)
+
+If the ion gauge is off, then you should see something like
+
+![HornetOff](https://raw.githubusercontent.com/anthoak13/E12014Planning/master/e15507/HornetOff.png)
+
+The **On/Off** button toggles the power status. It will take up to 15 seconds to turn on, so be patient. You can also read the power status and any error from the status bar below the pressure reading.
 
 ### ELog
 
