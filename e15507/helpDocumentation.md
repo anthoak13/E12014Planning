@@ -10,6 +10,7 @@
 * [FAQs](#faqs)
   * [Firefox not working](#firefox)
   * [Restarting the DAQ](#restarting-daq)
+  * [Problems with slow controls](#slow-controls)
 
 ### Running the DAQ
 
@@ -20,15 +21,29 @@ The DAQ is setup to be run from any computer on the DAQ network, including U3PC'
 3. Take data with [Readoutshell](#readout-shell)
 
 #### Readout shell
-From the home directory of account e15507, run `./ReadoutShell`. This should open a window like ![Readoushell Image](https://github.com/anthoak13/E12014Planning/raw/master/e15507/ReadoutShell.png). 
+From the home directory of account e15507, run `./ReadoutShell`. This should open a window like 
 
-Then press start and you should see the VME crate attach like ![ReadoutShell After Start](https://github.com/anthoak13/E12014Planning/raw/master/e15507/ReadoutShellAfterStart.png). 
+![Readoushell Image](https://github.com/anthoak13/E12014Planning/raw/master/e15507/ReadoutShell.png). 
+
+Then press start and you should see the VME crate attach like 
+
+![ReadoutShell After Start](https://github.com/anthoak13/E12014Planning/raw/master/e15507/ReadoutShellAfterStart.png). 
 
 If this doesn't happen, make sure the VME crate is on and look at the section for [restarting the DAQ](#restarting-daq).
 
 You are now ready to take data. If you want to record data, make sure the record button is ticked. You can verify data is coming in by running `./dumper` from the home directory. This just outputs everything being read in by the DAQ.
 
 #### SpecTcl
+**Right now, TTree generation is not completely automated in SpecTcl. This means there is an additional step that has to be done after each startup.**
+
+To launch SpecTcl, `cd SpecTcl` and then `./SpecTcl`. It will take a few seconds for it to fully load.
+After it is fully loaded, go to the terminal you used to open SpecTcl and type the command `roottree create tr *`. You can verify it worked with the command `roottree list`. For those curious, you can find the documentation for this command [here].(http://docs.nscl.msu.edu/daq/newsite/spectcl-5.0/cmdref/r3059.html) At this point that command line should look something like 
+
+![SpecTcl tree](https://github.com/anthoak13/E12014Planning/raw/master/e15507/SpecTclTree.png)
+
+To close SpecTcl, you should always use the purple **Exit** button on the bottom of this window 
+
+![SpecTcl Ecit](https://github.com/anthoak13/E12014Planning/raw/master/e15507/SpecTclExit.png)
 
 #### PulserGUI
 
@@ -40,12 +55,17 @@ You are now ready to take data. If you want to record data, make sure the record
 
 ### FAQs
 
+Below is a list of common problems I've encountered and how to fix them. As we find more problems, I'll add them to the list
 #### Firefox
 
-#### Restarting DAQ
-If you see something like this ![Readoutshell error](https://github.com/anthoak13/E12014Planning/raw/master/e15507/ReadoutShellError.png)
+Because all of the computers share a home directory, I've found firerfox can often screw up its locks. To fix this problem `cd ~/.mozilla/firefox` and delete the files `lock` and `.parentlock` from the profile directory. I've found that the right profile to try is `2rbkukgx.Kyle`.
 
-then you'll need to, probably, fully restart the DAQ. This often occurs when there is already a process registered as the producer for the e15507 ringbuffer. Either beacuse the DAQ crashed, or there is a readoutshell open somewhere else connected to e15507. 
+#### Restarting DAQ
+If you see something like this 
+
+![Readoutshell error](https://github.com/anthoak13/E12014Planning/raw/master/e15507/ReadoutShellError.png)
+
+then you'll need to, probably, fully restart the DAQ. This often occurs when there is already a process registered as the producer for the e15507 ringbuffer. Either beacuse the DAQ crashed, or there is a readoutshell open somewhere else connected to ringbuffer e15507. 
 
 To restart the DAQ, start by `~/GoSpdaq`. Then type `ringbuffer status`. You should see some output like
 ```
@@ -58,3 +78,21 @@ To restart the DAQ, start by `~/GoSpdaq`. Then type `ringbuffer status`. You sho
 +------+------------+-------+-------------+--------+---------+---------+------+-------------+
 ```
 Kill the process that is registered as the producer `kill 29294` and delete the ringbuffer `ringbuffer delete e15507`. You should then be able to use ReadoutShell to attach to the ringbuffer.
+
+#### Slow Controls
+
+##### Refused socket connection
+
+Most problems with the slow controls stem from another copy of the program being open elsewhere. This is difficult to track down if you do not know where the program was opened last. This is particularly true of the PuslerGUI and Hornet Control as they both connect to a terminal server that only allows one connection at a time. When you try to connect to the terminal server if there is an existing open connection you will see an error like
+```
+<u3pc2:~ >./goHornet 
+Error in startup script: couldn't open socket: connection refused
+    while executing
+"socket $terminalName.nscl.msu.edu 2001"
+    (procedure "start" line 6)
+    invoked from within
+"start $server"
+    (file "/user/e15507/hornetIG/hornetGUI.tcl" line 47)
+```
+
+The challenge is tracking down the open process. The best way I've found is to ssh into each computer it might be open on (s2pc2, u3pc2, u3pc3) and kill any offending processes. You can find potential process IDs with the command `ps aux | grep wish`. This should fix the problem.
