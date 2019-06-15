@@ -11,6 +11,7 @@
   * [Firefox not working](#firefox)
   * [Restarting the DAQ](#restarting-daq)
   * [Problems with slow controls](#slow-controls)
+    * [Refused socket connection](#refused-socket-connection)
 
 ### Running the DAQ
 
