@@ -1,4 +1,4 @@
-## Manual for E15507
+# Manual for E15507
 
 * [Running the DAQ](#running-the-daq)
   * [Readout Shell](#readout-shell)
@@ -15,7 +15,7 @@
     * [Refused socket connection](#refused-socket-connection)
     
 
-### Running the DAQ
+## Running the DAQ
 
 The DAQ is setup to be run from any computer on the DAQ network, including U3PC's and any spdaq computer. The general recipe for getting the DAQ up is:
 
@@ -23,7 +23,7 @@ The DAQ is setup to be run from any computer on the DAQ network, including U3PC'
 2. Run and connect [SpecTcl](#spectcl) to the ring buffer
 3. Take data with [Readoutshell](#readout-shell)
 
-#### Readout shell
+### Readout shell
 From the home directory of account e15507, run `./ReadoutShell`. This should open a window like 
 
 ![Readoushell Image](https://github.com/anthoak13/E12014Planning/raw/master/e15507/ReadoutShell.png). 
@@ -34,9 +34,9 @@ Then press start and you should see the VME crate attach like
 
 If this doesn't happen, make sure the VME crate is on and look at the section for [restarting the DAQ](#restarting-daq).
 
-You are now ready to take data. If you want to record data, make sure the record button is ticked. You can verify data is coming in by running `./dumper` from the home directory. This just outputs everything being read in by the DAQ.
+You are now ready to take data. If you want to record data, make sure the record button is ticked. You can verify data is coming in by running `./dumper` from the home directory. This just outputs everything being read in by the DAQ. You can also pass valid dumper command arguments through this wrapped. For example `./dumper --count 10` will only output the first 10 items. A full list of valid argumets can be found with `man dumper`. 
 
-#### SpecTcl
+### SpecTcl
 **Right now, TTree generation is not completely automated in SpecTcl. This means there is an additional step that has to be done after each startup.**
 
 To launch SpecTcl, `cd SpecTcl` and then `./SpecTcl`. It will take a few seconds for it to fully load.
@@ -48,24 +48,24 @@ To close SpecTcl, you should always use the purple **Exit** button on the bottom
 
 ![SpecTcl Ecit](https://github.com/anthoak13/E12014Planning/raw/master/e15507/SpecTclExit.png)
 
-#### PulserGUI
+### PulserGUI
 
-#### HV control
+### HV control
 
-#### Hornet Control
+### Hornet Control
 
-#### ELog
+### ELog
 
-#### PanelMate Control
+### PanelMate Control
 
-### FAQs
+## FAQs
 
 Below is a list of common problems I've encountered and how to fix them. As we find more problems, I'll add them to the list
-#### Firefox
+### Firefox
 
 Because all of the computers share a home directory, I've found firerfox can often screw up its locks. To fix this problem `cd ~/.mozilla/firefox` and delete the files `lock` and `.parentlock` from the profile directory. I've found that the right profile to try is `2rbkukgx.Kyle`.
 
-#### Restarting DAQ
+### Restarting DAQ
 If you see something like this 
 
 ![Readoutshell error](https://github.com/anthoak13/E12014Planning/raw/master/e15507/ReadoutShellError.png)
@@ -84,9 +84,9 @@ To restart the DAQ, start by `~/GoSpdaq`. Then type `ringbuffer status`. You sho
 ```
 Kill the process that is registered as the producer `kill 29294` and delete the ringbuffer `ringbuffer delete e15507`. You should then be able to use ReadoutShell to attach to the ringbuffer.
 
-#### Slow Controls
+### Slow Controls
 
-##### Refused socket connection
+#### Refused socket connection
 
 Most problems with the slow controls stem from another copy of the program being open elsewhere. This is difficult to track down if you do not know where the program was opened last. This is particularly true of the PuslerGUI and Hornet Control as they both connect to a terminal server that only allows one connection at a time. When you try to connect to the terminal server if there is an existing open connection you will see an error like
 ```
