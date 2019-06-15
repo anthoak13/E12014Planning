@@ -109,9 +109,9 @@ If the ion gauge is off, then you should see something like
 The **On/Off** button toggles the power status. It will take up to 15 seconds to turn on, so be patient. You can also read the power status and any error from the status bar below the pressure reading.
 
 ### ELog
-
+Coming soon!
 ### PanelMate Control
-
+Coming soon!
 ## FAQs
 
 Below is a list of common problems I've encountered and how to fix them. As we find more problems, I'll add them to the list
