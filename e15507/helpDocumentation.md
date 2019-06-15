@@ -3,6 +3,8 @@
 * [Running the DAQ](#running-the-daq)
   * [Readout Shell](#readout-shell)
   * [SpecTcl](#spectcl)
+  * [Scalers](#scalers)
+  * [Signal Switcher](#signal-switcher)
   * [PulserGUI](#pulsergui)
   * [HV Control](#hv-control)
   * [Hornet Control](#hornet-control)
@@ -75,6 +77,12 @@ rm ~/SpecTcl/*.root
 ```
 
 In order for a TTree to be generated with online data, SpecTcl must be connected to the data source before the run starts. Otherwise it misses the start_run ringbuffer item.
+
+### Scalers
+Coming soon!
+
+### Signal Switcher
+Coming soon!
 
 ### PulserGUI
 
