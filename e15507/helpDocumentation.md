@@ -37,18 +37,51 @@ If this doesn't happen, make sure the VME crate is on and look at the section fo
 You are now ready to take data. If you want to record data, make sure the record button is ticked. You can verify data is coming in by running `./dumper` from the home directory. This just outputs everything being read in by the DAQ. You can also pass valid dumper command arguments through this wrapped. For example `./dumper --count 10` will only output the first 10 items. A full list of valid argumets can be found with `man dumper`. 
 
 ### SpecTcl
+
 **Right now, TTree generation is not completely automated in SpecTcl. This means there is an additional step that has to be done after each startup.**
+
+#### Launching SpecTcl
 
 To launch SpecTcl, `cd SpecTcl` and then `./SpecTcl`. It will take a few seconds for it to fully load.
 After it is fully loaded, go to the terminal you used to open SpecTcl and type the command `roottree create tr *`. You can verify it worked with the command `roottree list`. For those curious, you can find the documentation for this command [here].(http://docs.nscl.msu.edu/daq/newsite/spectcl-5.0/cmdref/r3059.html) At this point that command line should look something like 
 
 ![SpecTcl tree](https://github.com/anthoak13/E12014Planning/raw/master/e15507/SpecTclTree.png)
 
+#### Closing SpecTcl
 To close SpecTcl, you should always use the purple **Exit** button on the bottom of this window 
 
 ![SpecTcl Ecit](https://github.com/anthoak13/E12014Planning/raw/master/e15507/SpecTclExit.png)
 
+#### Using SpecTcl
+In order for SpecTcl to be of any use, you have to attach a data source. Usually, this will be an online data source (a ringbuffer) or a .evt file. The data source is selected from the data source tab. Make sure that ring11 is selected and the buffer size is set to 8192.
+
+![SpecTcl Data Source](https://github.com/anthoak13/E12014Planning/raw/master/e15507/SpecTclDataSource.png)
+
+When connecting online, make sure the settings match those below
+
+![SpecTcl Online](https://github.com/anthoak13/E12014Planning/raw/master/e15507/SpecTclOnline.png)
+
+For offline, the .evt files are located in ~/experiment/run#/
+
+![SpecTcl Offline](https://github.com/anthoak13/E12014Planning/raw/master/e15507/SpecTclOffline.png)
+
+Data should now be coming in. Every parameter defined in SpecTcl will be written to a TTree with the name `run-#.root` in `~/SpecTcl`. After each run, this should be moved out of this directory to the analysis directory with 
+```
+scp ~/SpecTcl/*.root e15507@fishtank:/mnt/analysis/e15507/SpecTclTTree/
+rm ~/SpecTcl/*.root
+```
+
+In order for a TTree to be generated with online data, SpecTcl must be connected to the data source before the run starts. Otherwise it misses the start_run ringbuffer item.
+
 ### PulserGUI
+
+To run the pusler GUI `cd ~/pulser` and run `wish pulserGUI_BLUE_fission.tcl`. You should see a window like
+
+![PulserGUI](https://github.com/anthoak13/E12014Planning/raw/master/e15507/PulserGUI.png)
+
+To connect to the pulser press the **Connect** button, and then push **Pulse On** to start the pulser. The window should look like this now
+
+![PulserOn](https://github.com/anthoak13/E12014Planning/raw/master/e15507/PulserGUIOn.png)
 
 ### HV control
 
