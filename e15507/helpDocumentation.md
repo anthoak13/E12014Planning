@@ -7,11 +7,13 @@
   * [HV Control](#hv-control)
   * [Hornet Control](#hornet-control)
   * [ELog](#elog)
+  * [Venting, pressure, and PanelMate](#panelmate-control)
 * [FAQs](#faqs)
   * [Firefox not working](#firefox)
   * [Restarting the DAQ](#restarting-daq)
   * [Problems with slow controls](#slow-controls)
     * [Refused socket connection](#refused-socket-connection)
+    
 
 ### Running the DAQ
 
@@ -53,6 +55,8 @@ To close SpecTcl, you should always use the purple **Exit** button on the bottom
 #### Hornet Control
 
 #### ELog
+
+#### PanelMate Control
 
 ### FAQs
 
