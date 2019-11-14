@@ -67,3 +67,7 @@
 
 ## Misc
 - [x] Layout plan for vault
+- [ ] Finalize degrader selection
+  - [ ] Get beam spot at degrader location
+  - [ ] Calculate steel multiple scattering
+  - [ ] Explore lapped Si
