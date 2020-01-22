@@ -43,6 +43,49 @@
 
 ## Gridded Ion Chamber
 
+### Design
+- [ ] Design mounting structure
+- [ ] Design wall circuit boards
+- [ ] Fix mistakes in prototype boards
+
+### Fabrication
+- [ ] Get quote for lead time and cost for Rogers3000 and unbrominated G-10 for our circuit boards
+- [ ] Get parts from Zibi
+- [ ] Send rest of drawings to Zibi
+
+### Assembly
+- [ ] Test anode assembly procedure
+- [ ] Test Frisch grid prototype with protoype board
+- [ ] Solder anode board
+- [ ] Glue anode board in place
+- [ ] Solder and glue small wall pieces
+- [ ] Glue frisch grid boards in place
+- [ ] Solder electrical connections between anode, wall, and frish grid
+- [ ] Attach frish grid
+- [ ] Solder large walls
+- [ ] Solder window frame
+- [ ] Solder window pane
+- [ ] Glue window foil
+- [ ] Do metal deposition on foil and make electrical connection with conductive epoxy
+- [ ] Glue Window Frame
+- [ ] Glue walls to window frame
+- [ ] Glue cathode to bottom plate
+- [ ] Glue cathode to walls
+
+### Electronics
+- [ ] Aquire enough 50mV/MeV Preamps
+- [ ] Assemble boxes of ??
+- [ ] Design mounting structure and cooling
+- [ ] Test premaps with pulser
+
+
+### Testing
+- [ ] Alpha test at low pressure
+- [ ] Ramp pressure with alpha to study detector
+- [ ] Some sort of beam-like test?
+
+# Old Tasks
+
 ## Old Ion chamber
 
 ### Analysis (Lead: Chenyang)
