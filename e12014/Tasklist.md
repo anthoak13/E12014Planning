@@ -1,6 +1,4 @@
-# Tasklist of E12014
-
-## Primary Tasks
+# Primary Tasks
 * [MCP Test](#MCP-Test)
 * [Experiment Planning](#Experiment-Planning)
 * [AT-TPC](#AT_TPC)
@@ -8,8 +6,42 @@
 * [Gridded Ion Chamber](#Gridded-Ion-Chamber)
 
 ## MCP Test
+- [ ] Setup DAQ for test
+- [ ] Return MCP to unsegmented anode configuration
+- [ ] Set MCP to position sensitive
+- [ ] Data w/o mask
+- [ ] Data w/ mask
+- [ ] Populate a new voltage divider board
+- [ ] Analysis and position resolution
 
 ## Experiment Planning
+- [ ] LISE++ Simulations
+  - [ ] Rate/beam size
+- [ ] Foil thicknesses for various window sizes
+  - [ ] Reaction rate in the foil and window
+  - [ ] Extrapolate reaction rate to trigger rate
+- [ ] Verifiction that we have all gas connections
+  - [ ] Still need connections through TAMU
+- [ ] Verification of planned vault layout
+
+## AT-TPC
+- [ ] Major surgery to replace the cathode backing for 4cm window
+- [ ] Design and fabrication of 3 ro 3.5 cm window
+- [ ] Pressure test windows of various sizes/thicknesses
+- [ ] Simulations of AT-TPC
+- [ ] Modification of electronics for trigger
+- [ ] Purchase gas
+  - [ ] Do we filter and recyle gas, or just flow
+
+## DAQ
+- [ ] Setup e12014 experiment account
+- [ ] Setup DAQ test with AT-TPC and NSCL DAQ
+  - [ ] Test ways of ensuring data is taken only if both DAQs are running
+- [ ] Get data from linked DAQ
+- [ ] Write ofline software for linking data togehter through timestamp matching
+- [ ] Keep an eye on DAQ group/Daniel progress
+
+## Gridded Ion Chamber
 
 ## Old Ion chamber
 
@@ -47,7 +79,7 @@
 ## MCP (Lead: Kyle)
 - [ ] Replace anode on MCP
 - [ ] Connect all cables
-- [ ] Populate a new voltage divider board
+
 - [ ] Assemble all pieces
 - [ ] Alpha test 
 - [ ] Analyse for position resolution
