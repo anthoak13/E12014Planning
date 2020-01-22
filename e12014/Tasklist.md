@@ -49,6 +49,7 @@
 - [ ] Fix mistakes in prototype boards
 
 ### Fabrication
+* Drawings and status list is in I:\projects\hira\wegert\New Ion Chamber (Gridded)
 - [ ] Get quote for lead time and cost for Rogers3000 and unbrominated G-10 for our circuit boards
 - [ ] Get parts from Zibi
 - [ ] Send rest of drawings to Zibi
