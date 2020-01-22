@@ -1,5 +1,16 @@
 # Tasklist of E12014
 
+## Primary Tasks
+* [MCP Test](#MCP-Test)
+* [Experiment Planning](#Experiment-Planning)
+* [AT-TPC](#AT_TPC)
+* [DAQ](#DAQ)
+* [Gridded Ion Chamber](#Gridded-Ion-Chamber)
+
+## MCP Test
+
+## Experiment Planning
+
 ## Old Ion chamber
 
 ### Analysis (Lead: Chenyang)
