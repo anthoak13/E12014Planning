@@ -5,8 +5,8 @@
 * [DAQ](#DAQ)
 * [Gridded Ion Chamber](#Gridded-Ion-Chamber)
 
-## MCP Test
-- [ ] Setup DAQ for test
+## MCP Test (**Rensheng**)
+- [x] Setup DAQ for test
 - [ ] Return MCP to unsegmented anode configuration
 - [ ] Set MCP to position sensitive
 - [ ] Data w/o mask
@@ -17,16 +17,16 @@
 ## Experiment Planning
 - [ ] LISE++ Simulations
   - [ ] Rate/beam size
-- [ ] Foil thicknesses for various window sizes
+- [x] Foil thicknesses for various window sizes
   - [ ] Reaction rate in the foil and window
   - [ ] Extrapolate reaction rate to trigger rate
 - [ ] Verifiction that we have all gas connections
-  - [ ] Still need connections through TAMU
+  - [ ] Still need connections through TAMU (**Sarah**)
 - [ ] Verification of planned vault layout
 
 ## AT-TPC
-- [ ] Major surgery to replace the cathode backing for 4cm window
-- [ ] Design and fabrication of 3 ro 3.5 cm window
+- [x] Major surgery to replace the cathode backing for 4cm window
+- [ ] Design and fabrication of 3 or 3.5 cm window
 - [ ] Pressure test windows of various sizes/thicknesses
 - [ ] Simulations of AT-TPC
 - [ ] Modification of electronics for trigger
@@ -45,7 +45,7 @@
 
 ### Design
 - [ ] Design mounting structure
-- [ ] Design wall circuit boards
+- [x] Finish PCB designs
 - [ ] Fix mistakes in prototype boards
 
 ### Fabrication
