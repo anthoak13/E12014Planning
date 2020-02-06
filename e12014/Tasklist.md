@@ -67,23 +67,29 @@
 - [ ] Send rest of drawings to Zibi
 
 ### Assembly (**Rensheng**)
-- [ ] Test anode assembly procedure
-- [ ] Test Frisch grid prototype with protoype board
-- [ ] Solder anode board
-- [ ] Glue anode board in place
-- [ ] Solder and glue small wall pieces
-- [ ] Glue frisch grid boards in place
-- [ ] Solder electrical connections between anode, wall, and frish grid
-- [ ] Attach frish grid
-- [ ] Solder large walls
-- [ ] Solder window frame
-- [ ] Solder window pane
-- [ ] Glue window foil
-- [ ] Do metal deposition on foil and make electrical connection with conductive epoxy
-- [ ] Glue Window Frame
-- [ ] Glue walls to window frame
-- [ ] Glue cathode to bottom plate
-- [ ] Glue cathode to walls
+- [ ] Write detailed assembly procedure
+- [ ] Dry run using prototype boards
+- [ ] Test seperation of Ro3000 boards
+- [ ] Seperate Ro3000 boards
+- [ ] Dry run using Ro3000 boards
+- [ ] Assembly
+- [ ] *Test anode assembly procedure*
+- [ ] *Test Frisch grid prototype with protoype board*
+- [ ] *Solder anode board*
+- [ ] *Glue anode board in place*
+- [ ] *Solder and glue small wall pieces*
+- [ ] *Glue frisch grid boards in place*
+- [ ] *Solder electrical connections between anode, wall, and frish grid*
+- [ ] *Attach frish grid*
+- [ ] *Solder large walls*
+- [ ] *Solder window frame*
+- [ ] *Solder window pane*
+- [ ] *Glue window foil*
+- [ ] *Do metal deposition on foil and make electrical connection with conductive epoxy*
+- [ ] *Glue Window Frame*
+- [ ] *Glue walls to window frame*
+- [ ] *Glue cathode to bottom plate*
+- [ ] *Glue cathode to walls*
 
 ### Electronics
 - [ ] Aquire enough 50mV/MeV Preamps (**Sean**)
