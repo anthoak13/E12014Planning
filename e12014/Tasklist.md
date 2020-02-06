@@ -1,6 +1,7 @@
 # Primary Tasks
 * [MCP Test](#MCP-Test)
 * [Experiment Planning](#Experiment-Planning)
+* [Experiment Setup](#Experiment-Setup)
 * [AT-TPC](#AT_TPC)
 * [DAQ](#DAQ)
 * [Gridded Ion Chamber](#Gridded-Ion-Chamber)
@@ -15,46 +16,48 @@
 - [ ] Analysis and position resolution
 
 ## Experiment Planning
-- [ ] LISE++ Simulations
-  - [ ] Rate/beam size
+- [ ] LISE++ Simulations (**Chenyang**)
+  - [x] Beam size
+  - [ ] Comparison of simulation to data (prediction power of LISE)
 - [x] Foil thicknesses for various window sizes
-  - [ ] Reaction rate in the foil and window
+  - [ ] Reaction rate in the foil and window (**Joe**)
   - [ ] Extrapolate reaction rate to trigger rate
-- [ ] Verifiction that we have all gas connections
-  - [ ] Still need connections through TAMU (**Sarah**)
-- [ ] Verification of planned vault layout
+- [ ] Design of gas system including pumping procedure w/ ATTPC (**Fanurs and Chenyang**)
+  - [ ] Verify we have all connectors and tubing
+  - [ ] Still need connections through TAMU (3 1/4 weldable VCO pieces, get part # from Zibi)  (**Sarah**)
+- [ ] Verification of planned vault layout (**Adam**)
 
 ## AT-TPC
 - [x] Major surgery to replace the cathode backing for 4cm window
 - [ ] Design and fabrication of 3 or 3.5 cm window
 - [ ] Pressure test windows of various sizes/thicknesses
 - [ ] Simulations of AT-TPC
-- [ ] Modification of electronics for trigger
-- [ ] Purchase gas
+- [ ] Modification of electronics for trigger (**Allan**)
+- [ ] Purchase gas (**Joe**)
   - [ ] Do we filter and recyle gas, or just flow
 
 ## DAQ
-- [ ] Setup e12014 experiment account
-- [ ] Setup DAQ test with AT-TPC and NSCL DAQ
+- [ ] Setup e12014 experiment account (**Adam**)
+- [ ] Setup DAQ test with AT-TPC and NSCL DAQ (**Allan**)
   - [ ] Test ways of ensuring data is taken only if both DAQs are running
 - [ ] Get data from linked DAQ
-- [ ] Write ofline software for linking data togehter through timestamp matching
-- [ ] Keep an eye on DAQ group/Daniel progress
+- [ ] Write ofline software for linking data togehter through timestamp matching (**Adam**)
+- [ ] Keep an eye on DAQ group/Daniel progress (**Adam/Kyle**)
 
 ## Gridded Ion Chamber
 
 ### Design
 - [ ] Design mounting structure
 - [x] Finish PCB designs
-- [ ] Fix mistakes in prototype boards
+- [x] Fix mistakes in prototype boards
 
 ### Fabrication
 * Drawings and status list is in I:\projects\hira\wegert\New Ion Chamber (Gridded)
-- [ ] Get quote for lead time and cost for Rogers3000 and unbrominated G-10 for our circuit boards
+- [x] Get quote for lead time and cost for Rogers3000 and unbrominated G-10 for our circuit boards
 - [ ] Get parts from Zibi
 - [ ] Send rest of drawings to Zibi
 
-### Assembly
+### Assembly (**Rensheng**)
 - [ ] Test anode assembly procedure
 - [ ] Test Frisch grid prototype with protoype board
 - [ ] Solder anode board
@@ -74,10 +77,11 @@
 - [ ] Glue cathode to walls
 
 ### Electronics
-- [ ] Aquire enough 50mV/MeV Preamps
-- [ ] Assemble boxes of ??
-- [ ] Design mounting structure and cooling
-- [ ] Test premaps with pulser
+- [ ] Aquire enough 50mV/MeV Preamps (**Sean**)
+- [ ] Assemble 3 preamp baords (15 ch total) (**Sean**)
+- [ ] Modify box to hold preamps (**Sean**)
+- [ ] Design mounting structure and cooling (**Sean**)
+- [ ] Test premaps with pulser (**Fanurs?**)
 
 
 ### Testing
