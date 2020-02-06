@@ -18,7 +18,8 @@
 ## Experiment Planning
 - [ ] LISE++ Simulations (**Chenyang**)
   - [x] Beam size
-  - [ ] Comparison of simulation to data (prediction power of LISE)
+  - [ ] Comparison of simulation to data (predictive power of LISE) (**Chenyang/Joe**)
+  - [ ] Check beam optics for ISO-100 Tee before/after Si detector
 - [x] Foil thicknesses for various window sizes
   - [ ] Reaction rate in the foil and window (**Joe**)
   - [ ] Extrapolate reaction rate to trigger rate
@@ -27,18 +28,25 @@
   - [ ] Still need connections through TAMU (3 1/4 weldable VCO pieces, get part # from Zibi)  (**Sarah**)
 - [ ] Verification of planned vault layout (**Adam**)
 
+## Experiment Setup
+- [ ] Setup beamline (**Allan**)
+  - [ ] Gather all parts
+  - [ ] Assemble in ReA3
+  - [ ] Test pumping/venting procedure and check vacuum
+
+
 ## AT-TPC
 - [x] Major surgery to replace the cathode backing for 4cm window
 - [ ] Design and fabrication of 3 or 3.5 cm window
 - [ ] Pressure test windows of various sizes/thicknesses
 - [ ] Simulations of AT-TPC
-- [ ] Modification of electronics for trigger (**Allan**)
 - [ ] Purchase gas (**Joe**)
   - [ ] Do we filter and recyle gas, or just flow
 
 ## DAQ
 - [ ] Setup e12014 experiment account (**Adam**)
 - [ ] Setup DAQ test with AT-TPC and NSCL DAQ (**Allan**)
+  - [ ] Setup of fast clear circuit between DAQs
   - [ ] Test ways of ensuring data is taken only if both DAQs are running
 - [ ] Get data from linked DAQ
 - [ ] Write ofline software for linking data togehter through timestamp matching (**Adam**)
@@ -81,84 +89,13 @@
 - [ ] Assemble 3 preamp baords (15 ch total) (**Sean**)
 - [ ] Modify box to hold preamps (**Sean**)
 - [ ] Design mounting structure and cooling (**Sean**)
-- [ ] Test premaps with pulser (**Fanurs?**)
+- [ ] Test premaps with pulser (**Drew/?**)
+  - [ ] Use an existing test box
+  - [ ] Measure noise of 50 mV/MeV preamp
+  - [ ] Solve attenuation problem (we will saturate the shaper)
 
 
 ### Testing
 - [ ] Alpha test at low pressure
 - [ ] Ramp pressure with alpha to study detector
 - [ ] Some sort of beam-like test?
-
-# Old Tasks
-
-## Old Ion chamber
-
-### Analysis (Lead: Chenyang)
-- [ ] Understand the double peak when cutting on Si PiD (**Joe**)
-- [ ] Understand the purity of rates of different isotopes (**Joe**)
-- [ ] Update LISE++ with physical locations on beam pipe (**Chenyang**)
-- [ ] Update LISE++ with settings used in experiment (**Chenyang**)
-
-### Hardware (Lead: Adam)
-- [ ] Get baseline measurement with e15507 settings
-- [ ] Get measurement with replaced decoupling capacitor
-- [ ] Calculate best case energy resolution from IC
-- [ ] SRIM simulation of alpha test for straggling
-- [ ] Measure gain in Quad Shapers compared to Tenelec
-
-## New Ion Chamber Lead: Rensheng?
-- [ ] Finalize design
-  - [ ] Finalize design of box (**Sarah**)
-  - [ ] Finalize design of IC internals (**Sarah**)
-  - [ ] Finalize design of prop counter internals (**Sarah**)
-  - [ ] Write assembly procedure (**Sarah/Jon**)
-  - [ ] Finalize design of circuit boards (**Aaron**)
-- [ ] Frish grid 
-  - [ ] Start design of mount for comb (**Jon**)
-  - [ ] Start design of frame for wire winding (**Jon**)
-  - [ ] Talk to Yassid about winding
-  - [ ] Design prototype to test procedure
-- [ ] Fabricate all parts (**WMU**)
-  - Prioratize anode plate and build up
-- [ ] Assemble IC
-- [ ] Test IC with alpha and beam?
-  - [ ] If no beam test until experiment, need to be able to switch IC to old
-
-## MCP (Lead: Kyle)
-- [ ] Replace anode on MCP
-- [ ] Connect all cables
-
-- [ ] Assemble all pieces
-- [ ] Alpha test 
-- [ ] Analyse for position resolution
-
-## AT-TPC (Lead: Adam)
-
-- [ ] Install copper vent pipe
-- [ ] Get AHD approved
-
-### Harware
-- [ ] Purchase O2 scrubbers
-- [ ] Fix AT-TPC leak
-  - [ ] Calculate amount of contamination given current leak rate
-- [ ] Buy H2 gas
-- [ ] Finish window
-  - [ ] Design of new window holder and cathode mount
-  - [ ] Design modified blank to hold window
-  - [ ] Fabricate holder and modified blank
-  - [ ] Pick a window material and glue
-  - [ ] Pressure test to 2 atm
-
-### Software
-- [ ] Do simulations of fission events
-  - [ ] Write fission generator for AT-TPC
-  - [ ] Everything else involved
-- [ ] Design software for linking AT-TPC and NSCL analysis
-- [ ] Implement and test software with simulations
-
-## Misc
-- [x] Layout plan for vault
-- [ ] Finalize degrader selection
-  - [ ] Get beam spot at degrader location
-  - [ ] Calculate steel multiple scattering
-  - [ ] Explore lapped Si
