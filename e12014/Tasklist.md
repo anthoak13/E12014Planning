@@ -33,7 +33,8 @@
   - [ ] Gather all parts
   - [ ] Assemble in ReA3
   - [ ] Test pumping/venting procedure and check vacuum
-
+  - [ ] Move to vault and retest
+  - [ ] Add detectors
 
 ## AT-TPC
 - [x] Major surgery to replace the cathode backing for 4cm window
