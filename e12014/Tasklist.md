@@ -21,7 +21,7 @@
   - [ ] Comparison of simulation to data (predictive power of LISE) (**Chenyang/Joe**)
   - [ ] Check beam optics for ISO-100 Tee before/after Si detector
 - [x] Foil thicknesses for various window sizes
-  - [ ] Reaction rate in the foil and window (**Joe**)
+  - [x] Reaction rate in the foil and window (**Joe**)
   - [ ] Extrapolate reaction rate to trigger rate
 - [ ] Design of gas system including pumping procedure w/ ATTPC (**Fanurs and Chenyang**)
   - [ ] Verify we have all connectors and tubing
