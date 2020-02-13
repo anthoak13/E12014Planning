@@ -42,7 +42,7 @@
 - [ ] Pressure test windows of various sizes/thicknesses
 - [ ] Simulations of AT-TPC
 - [ ] Purchase gas (**Joe**)
-  - [x] Do we filter and recyle gas, or just flow
+  - [x] Do we filter and recyle gas, or **just flow**
 
 ## DAQ
 - [ ] Setup e12014 experiment account (**Adam**)
