@@ -41,7 +41,7 @@
 - [ ] Design and fabrication of 3 or 3.5 cm window
 - [ ] Pressure test windows of various sizes/thicknesses
 - [ ] Simulations of AT-TPC
-- [ ] Purchase gas (**Joe**)
+- [x] Purchase gas (**Joe**)
   - [x] Do we filter and recyle gas, or **just flow**
 
 ## DAQ
