@@ -6,7 +6,7 @@
 * [DAQ](#DAQ)
 * [Gridded Ion Chamber](#Gridded-Ion-Chamber)
 
-## MCP Test (**Rensheng**)
+## ~~MCP Test (**Rensheng**)~~
 - [x] Setup DAQ for test
 - [ ] Return MCP to unsegmented anode configuration
 - [ ] Set MCP to position sensitive
@@ -20,13 +20,18 @@
   - [x] Beam size
   - [ ] Comparison of simulation to data (predictive power of LISE) (**Chenyang/Joe**)
   - [ ] Check beam optics for ISO-100 Tee before/after Si detector
+  - [ ] Mumber of reactions that look like fission
 - [x] Foil thicknesses for various window sizes
   - [x] Reaction rate in the foil and window (**Joe**)
   - [ ] Extrapolate reaction rate to trigger rate
-- [ ] Design of gas system including pumping procedure w/ ATTPC (**Fanurs and Chenyang**)
-  - [ ] Verify we have all connectors and tubing
-  - [ ] Still need connections through TAMU (3 1/4 weldable VCO pieces, get part # from Zibi)  (**Sarah**)
-- [ ] Verification of planned vault layout (**Adam**)
+- [x] Design of gas system including pumping procedure w/ ATTPC (**Fanurs and Chenyang**)
+  - [x] Verify we have all connectors and tubing
+  - [x] Still need connections through TAMU (3 1/4 weldable VCO pieces, get part # from Zibi)  (**Sarah**)
+- [x] Verification of planned vault layout (**Adam**)
+- [ ] Selection of IC
+  - [ ] Test of old IC
+- [ ] Plan for pileup problem and proper deadtime estimations
+- [ ] Verify both MCPs still working
 
 ## Experiment Setup
 - [ ] Setup beamline (**Allan**)
@@ -35,23 +40,26 @@
   - [ ] Test pumping/venting procedure and check vacuum
   - [ ] Move to vault and retest
   - [ ] Add detectors
+- [ ] Modification of degrader foil for beta Tee
+- [ ] Test pumping.venting procedure
 
 ## AT-TPC
 - [x] Major surgery to replace the cathode backing for 4cm window
-- [ ] Design and fabrication of 3 or 3.5 cm window
+- [x] Design and fabrication of 3 or 3.5 cm window
 - [ ] Pressure test windows of various sizes/thicknesses
+- [ ] Make a backup window
 - [ ] Simulations of AT-TPC
 - [x] Purchase gas (**Joe**)
   - [x] Do we filter and recyle gas, or **just flow**
 
 ## DAQ
-- [ ] Setup e12014 experiment account (**Adam**)
-- [ ] Setup DAQ test with AT-TPC and NSCL DAQ (**Allan**)
+- [x] Setup e12014 experiment account (**Adam**)
+- [x] Setup DAQ test with AT-TPC and NSCL DAQ (**Allan**)
   - [ ] Setup of fast clear circuit between DAQs
   - [ ] Test ways of ensuring data is taken only if both DAQs are running
-- [ ] Get data from linked DAQ
+- [x] Get data from linked DAQ
 - [ ] Write ofline software for linking data togehter through timestamp matching (**Adam**)
-- [ ] Keep an eye on DAQ group/Daniel progress (**Adam/Kyle**)
+- [x] Keep an eye on DAQ group/Daniel progress (**Adam/Kyle**)
 
 ## Gridded Ion Chamber
 
