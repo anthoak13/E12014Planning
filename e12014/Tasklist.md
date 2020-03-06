@@ -61,13 +61,14 @@
 - [ ] Write ofline software for linking data togehter through timestamp matching (**Adam**)
 - [x] Keep an eye on DAQ group/Daniel progress (**Adam/Kyle**)
 - [ ] Setup control programs on e12014
-  - [ ] Hornet control
-  - [ ] N568 control
-  - [ ] HV control FP
-  - [ ] HV control S2
-  - [ ] Signal switcher
-  - [ ] Pulser 
-  - [ ] Elog starting
+  - [x] Hornet control
+  - [x] N568 control
+  - [x] HV control FP
+  - [x] HV control S2
+  - [x] Signal switcher
+  - [x] Scalers
+  - [x] Pulser 
+  - [ ] Elog starting with screens
 - [ ] Write documentation for programs
   - [x] ReadoutShell
   - [x] SpecTcl
