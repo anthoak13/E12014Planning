@@ -56,10 +56,32 @@
 - [x] Setup e12014 experiment account (**Adam**)
 - [x] Setup DAQ test with AT-TPC and NSCL DAQ (**Allan**)
   - [ ] Setup of fast clear circuit between DAQs
-  - [ ] Test ways of ensuring data is taken only if both DAQs are running
+  - [x] Test ways of ensuring data is taken only if both DAQs are running
 - [x] Get data from linked DAQ
 - [ ] Write ofline software for linking data togehter through timestamp matching (**Adam**)
 - [x] Keep an eye on DAQ group/Daniel progress (**Adam/Kyle**)
+- [ ] Setup control programs on e12014
+  - [ ] Hornet control
+  - [ ] N568 control
+  - [ ] HV control FP
+  - [ ] HV control S2
+  - [ ] Signal switcher
+  - [ ] Pulser 
+  - [ ] Elog starting
+- [ ] Write documentation for programs
+  - [x] ReadoutShell
+  - [x] SpecTcl
+  - [ ] AT-TPC DAQ
+  - [ ] AT-TPC Merger
+  - [ ] HiRAEVTUnpacker
+  - [ ] DAQMerger
+  - [x] HornetGUI
+  - [ ] N568
+  - [x] IsegPanel
+  - [ ] IsegControl
+  - [ ] SignalSwitcher
+  - [x] PulserGUI
+  - [ ] ELog
 
 ## Gridded Ion Chamber
 
