@@ -117,10 +117,10 @@
 - [ ] *Solder window pane*
 - [ ] *Glue window foil*
 - [ ] *Do metal deposition on foil and make electrical connection with conductive epoxy*
-- [ ] *Glue Window Frame*
-- [ ] *Glue walls to window frame*
-- [ ] *Glue cathode to bottom plate*
-- [ ] *Glue cathode to walls*
+- [x] *Glue Window Frame*
+- [x] *Glue walls to window frame*
+- [x] *Glue cathode to bottom plate*
+- [x] *Glue cathode to walls*
 
 ### Electronics
 - [ ] Aquire enough 50mV/MeV Preamps (**Sean**)
