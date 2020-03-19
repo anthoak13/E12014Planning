@@ -2,32 +2,33 @@
 
 For more description, see <https://groups.nscl.msu.edu/hira/12014/gas_handling_system_and_procedures.pdf>.
 
-## Pumping
-### 0. Initialization. Merge IC, TAMU, MCP, GHS volumes.
-	- Make sure AT-TPC is at atmospheric pressure with bias off.
-	- Open: V1, V2, V3, V4, V8 on GHS
-	- Close: V5, V6, V7 on GHS
-	- Close gas regulator on gas bottle
-	- Open V10 and V11 (IC-TAMU and MCP-TAMU by-passes)
-	- Close V12 - V18
-	- Turn on both mech. pumps; Turn off both turbo pumps.
-	- Set control valve to "OFF".
-	- Connect differential gauge; disconnect absolute gauge.
-	- Off: H.V. for IC, Si, MCP and pre-amp. of IC.
-	- On: H.V. for HPGe.
-	- On: Stinger gauge for TAMU; Off: Both ion gauges (TAMU & MCP)
-### 1. Start pumping. Wait till 500 mTorr. Monitor differential pressure of IC.
-	- V12 remains closed as we want ensure a positive differential pressure of IC.
-	- Open V13 (turbo to MCP)
-	- Open V14 (mech. to turbos)
-	- Open V15 (mech. to GHS)
-	- Wait till Stinger gauge for TAMU reads below 500 mTorr.
+## Pumping (TURN BIAS OFF!!!)
+### 0. Setup gas handling system (GHS)
+	- Setup in differntial mode by moving the d-sub connector to the differentuial pressure gauge, setting the senser voltage on the control vale to 1V, and setting the display voltage to ????
+	- On GHS, close V1, V5, V6, V7
+	- On GHS, open V2, V3, V4, V8
+	- On GHS, make sure the control valve is closed
+	- On the gas inlet line close the valves to N2 and gas regulator (V16 and V17)
+### 1. Merge all vacuum volumes and prepare to pump
+	- Open the bypasses between TAMU and the IC/MCP volumes (V10 and V11)
+	- Verify the valves on the roughing pumps are closed (V14 and V15)
+	- Verify the valves on the tubo pumps are closed (V12 and V13)
+	- Verify the vent valves are closed (V18 and V19)
+	- Verify the interlocked gate valve is open on the controls computer (G207VV)
+	- Verify H.V. for IC, Si, MCP and pre-amp. of IC is off.
+	- Verify stinger gauge is on, and both ion gauges are off.
+### 1. Start pumping through the MCP turbo, constantly monitoring differential pressure on GHS
+	- If off, turn on both roughing pumps (Add special instructions for scroll?)
+	- Open the valve on the turbo backing pump (V14)
+	- Slowly open the valve on the MCP turbo (V13). You want to pump at ~1 torr/sec, making sure the pressure in the IC remains positive.
+	- Once the stinger gauge reads < 50 torr, open the valve on the TAMU turbo (V12)
+	- At this point, open the valve on the GHS pump (V15)
+	- Wait for vacuum to get to level for turbos (400 mtorr)
 ### 2. Isolate each component, turn on turbos.
-	- Open V12 (turbo to TAMU)
-	- Close V10 (IC-TAMU bypass)
-	- Close V11 (MCP-TAMU bypass)
 	- Turn on both turbos
-	- Wait till Stinger gauge for TAMU reads below 1 mTorr
+	- Close the bypasses between TAMU and the IC/MCP (V10 and V11)
+	- Wait till Stinger gauge goes off scale.
+	- Close the interlocked vent valve (G207VV)
 	- May inform AT-TPC to start pumping.
 ### 4. Reached high vacuum (1m Torr), turn on ion gauges.
 	- AT-TPC may start pumping to vacuum.
