@@ -10,6 +10,7 @@
   * [HV Control TODO](#hv-control)
   * [Hornet Control](#hornet-control)
   * [ELog TODO](#elog)
+  * [PanelMate TODO](#panelmate)
   
 * [Vacuum system](#vacuum-system)
   * [Pumping TODO](#pumping)
@@ -24,10 +25,10 @@
   * [S2 HV Control TODO](#s2-mcp-control)	
   
 * [Analysis](#analysis)
- * [Unpacking NSCL data TODO](#unpacking-nscl-data)
- * [Unpacking TPC data TODO](#unpacking-tpc-data)
- * [Merging NSCL/TPC data TODO](#merging-runs)
- * [Viewing TPC data TODO](#viewing-tpc-data)
+  * [Unpacking NSCL data TODO](#unpacking-nscl-data)
+  * [Unpacking TPC data TODO](#unpacking-tpc-data)
+  * [Merging NSCL/TPC data TODO](#merging-runs)
+  * [Viewing TPC data TODO](#viewing-tpc-data)
 
 * [FAQs](#faqs)
   * [Firefox not working](#firefox)
@@ -45,6 +46,7 @@ The DAQ is setup to be run from any computer on the DAQ network, including U3PC'
 3. Take data with [Readoutshell](#readout-shell)
 
 ### Connecting to the DAQ
+Coming soon!
 
 ### Readout shell
 From the home directory of account e15507, run `./ReadoutShell`. This should open a window like 
@@ -139,8 +141,42 @@ The **On/Off** button toggles the power status. It will take up to 15 seconds to
 
 ### ELog
 Coming soon!
-### PanelMate Control
+
+### PanelMate
 Coming soon!
+
+## Vacuum system
+
+### Pumping
+
+### venting
+
+  
+## Ion Chamber
+
+### IC HV Control
+
+### n568 Control
+
+
+## MCP
+
+### FP MCP Control
+
+### S2 MCP Control
+
+
+## Analysis
+
+### Unpacking NSCL Data
+Coming soon!
+### Unpacking TPC Data
+Coming soon!
+### Merging Runs
+Coming soon!
+### Viewing TPC Data
+Coming soon!
+
 ## FAQs
 
 Below is a list of common problems I've encountered and how to fix them. As we find more problems, I'll add them to the list
