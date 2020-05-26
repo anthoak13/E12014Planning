@@ -15,13 +15,19 @@
   * [Pumping TODO](#pumping)
   * [Venting TODO](#venting)
   
-* [Ion Chamber]
+* [Ion Chamber](#ion-chamber)
   * [HV Control TODO](#ic-hv-control)
   * [CAEN Shaper TODO](#n568-control)
 
 * [MCP](#mcp)
   * [FP HV Control TODO](#fp-mcp-control)
   * [S2 HV Control TODO](#s2-mcp-control)	
+  
+* [Analysis](#analysis)
+ * [Unpacking NSCL data TODO](#unpacking-nscl-data)
+ * [Unpacking TPC data TODO](#unpacking-tpc-data)
+ * [Merging NSCL/TPC data TODO](#merging-runs)
+ * [Viewing TPC data TODO](#viewing-tpc-data)
 
 * [FAQs](#faqs)
   * [Firefox not working](#firefox)
