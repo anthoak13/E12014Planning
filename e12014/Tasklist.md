@@ -56,10 +56,33 @@
 - [x] Setup e12014 experiment account (**Adam**)
 - [x] Setup DAQ test with AT-TPC and NSCL DAQ (**Allan**)
   - [ ] Setup of fast clear circuit between DAQs
-  - [ ] Test ways of ensuring data is taken only if both DAQs are running
+  - [x] Test ways of ensuring data is taken only if both DAQs are running
 - [x] Get data from linked DAQ
 - [ ] Write ofline software for linking data togehter through timestamp matching (**Adam**)
 - [x] Keep an eye on DAQ group/Daniel progress (**Adam/Kyle**)
+- [ ] Setup control programs on e12014
+  - [x] Hornet control
+  - [x] N568 control
+  - [x] HV control FP
+  - [x] HV control S2
+  - [x] Signal switcher
+  - [x] Scalers
+  - [x] Pulser 
+  - [ ] Elog starting with screens
+- [ ] Write documentation for programs
+  - [x] ReadoutShell
+  - [x] SpecTcl
+  - [ ] AT-TPC DAQ
+  - [ ] AT-TPC Merger
+  - [ ] HiRAEVTUnpacker
+  - [ ] DAQMerger
+  - [x] HornetGUI
+  - [ ] N568
+  - [x] IsegPanel
+  - [ ] IsegControl
+  - [ ] SignalSwitcher
+  - [x] PulserGUI
+  - [ ] ELog
 
 ## Gridded Ion Chamber
 
@@ -75,29 +98,29 @@
 - [ ] Send rest of drawings to Zibi
 
 ### Assembly (**Rensheng**)
-- [ ] Write detailed assembly procedure
-- [ ] Dry run using prototype boards
-- [ ] Test seperation of Ro3000 boards
-- [ ] Seperate Ro3000 boards
-- [ ] Dry run using Ro3000 boards
+- [x] Write detailed assembly procedure
+- [x] Dry run using prototype boards
+- [x] Test seperation of Ro3000 boards
+- [x] Seperate Ro3000 boards
+- [x] Dry run using Ro3000 boards
 - [ ] Assembly
-- [ ] *Test anode assembly procedure*
-- [ ] *Test Frisch grid prototype with protoype board*
-- [ ] *Solder anode board*
-- [ ] *Glue anode board in place*
-- [ ] *Solder and glue small wall pieces*
+- [x] *Test anode assembly procedure*
+- [x] *Test Frisch grid prototype with protoype board*
+- [x] *Solder anode board*
+- [x] *Glue anode board in place*
+- [x] *Solder and glue small wall pieces*
 - [ ] *Glue frisch grid boards in place*
-- [ ] *Solder electrical connections between anode, wall, and frish grid*
-- [ ] *Attach frish grid*
-- [ ] *Solder large walls*
+- [x] *Solder electrical connections between anode, wall, and frish grid*
+- [x] *Attach frish grid*
+- [x] *Solder large walls*
 - [ ] *Solder window frame*
 - [ ] *Solder window pane*
 - [ ] *Glue window foil*
 - [ ] *Do metal deposition on foil and make electrical connection with conductive epoxy*
-- [ ] *Glue Window Frame*
-- [ ] *Glue walls to window frame*
-- [ ] *Glue cathode to bottom plate*
-- [ ] *Glue cathode to walls*
+- [x] *Glue Window Frame*
+- [x] *Glue walls to window frame*
+- [x] *Glue cathode to bottom plate*
+- [x] *Glue cathode to walls*
 
 ### Electronics
 - [ ] Aquire enough 50mV/MeV Preamps (**Sean**)
