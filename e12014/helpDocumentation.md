@@ -170,8 +170,24 @@ Coming soon!
 
 ### Unpacking NSCL Data
 Coming soon!
+
 ### Unpacking TPC Data
-Coming soon!
+This is a multi-step process. The data must be mergered on the tpc side. This takes the many output files from the TPC and mergers them into a single HDF5 file. That file must then be copied from the private AT-TPC network to the NSCL side. This has to be done from the gateway machine. That file is then unpacked into a ROOT file. By default this unpacks just the raw data, and makes a simple reconstruction of 3D points. If the TPC parameters change, they have to be updated in `/mnt/simulations/attpcroot/adam/ATTPCROOTv2/parameters/ATTPC.e12014.par` 
+
+1. Merge the file. *This will be the responsibily of the TPC person on shift.*
+2. Copy file from gateway to /mnt/events/e12014/tpc/ *TODO: Need correct path*
+3. From a new terminal ssh into fishtank, go to the ATTPC-ROOT directory and source the enviroment file.
+```
+fishtank
+cd /mnt/simulations/attpcroot/adam/ATTPCROOTv2
+source env.sh
+```
+4. Move to the unpacker directory and run. This assumes the HDF 5 file is in `/mnt/events/e12014/tpc/`, and unpacks the data to `/mnt/analysis/e12014/TPC/unpacked`
+
+```
+cd /mnt/simulations/attpcroot/adam/ATTPCROOTv2/compiled/E12014Unpacker/bin
+./unpackTPC 258
+```
 ### Merging Runs
 Coming soon!
 ### Viewing TPC Data
