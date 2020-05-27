@@ -190,8 +190,21 @@ cd /mnt/simulations/attpcroot/adam/ATTPCROOTv2/compiled/E12014Unpacker/bin
 ```
 ### Merging Runs
 Coming soon!
+
 ### Viewing TPC Data
-Coming soon!
+This has to be done using a macro. Trying to compile failed miserably.
+
+1. From a new terminal ssh into fishtank, go to the ATTPC-ROOT directory and source the enviroment file.
+```
+fishtank
+cd /mnt/simulations/attpcroot/adam/ATTPCROOTv2
+source env.sh
+```
+2. Go to the e12014 macro directory. `cd /mnt/simulations/attpcroot/adam/ATTPCROOTv2/macro/e12014`
+3. Run the visualizer, passing the unpacked run you would like to view.
+```
+root 'run_eve.C("/mnt/analysis/e12014/TPC/unpacked/run_0309.root")'
+```
 
 ## FAQs
 
