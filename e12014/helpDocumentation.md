@@ -169,7 +169,18 @@ Coming soon!
 ## Analysis
 
 ### Unpacking NSCL Data
-Coming soon!
+The data is unpacked and mapped using HiRAEVT. Unpacking is already setup, mapping will be worked on as the experiment progresses. Data is unpacked from evt files in `/mnt/rawdata/e12014`. Unpacked/mapped data can be found in `/mnt/analysis/e12014/HiRAEVT`.
+
+1. Open a new terminal and cd to HiRAEVT code and source the enviroment script.
+```
+cd ~/hira/HiRAEVT
+source bin/HiRAEVT.sh
+```
+2. From the HiRAEVT directory, run the unpacker.
+```
+HiRAEVTUnpacker run#
+HiRAEVTUnpacker 1stRun# lastRun#
+```
 
 ### Unpacking TPC Data
 This is a multi-step process. The data must be mergered on the tpc side. This takes the many output files from the TPC and mergers them into a single HDF5 file. That file must then be copied from the private AT-TPC network to the NSCL side. This has to be done from the gateway machine. That file is then unpacked into a ROOT file. By default this unpacks just the raw data, and makes a simple reconstruction of 3D points. If the TPC parameters change, they have to be updated in `/mnt/simulations/attpcroot/adam/ATTPCROOTv2/parameters/ATTPC.e12014.par` 
