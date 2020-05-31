@@ -7,7 +7,6 @@
   * [Scalers](#scalers)
   * [Signal Switcher](#signal-switcher)
   * [PulserGUI](#pulsergui)
-  * [HV Control TODO](#hv-control)
   * [Hornet Control](#hornet-control)
   * [ELog TODO](#elog)
   * [PanelMate TODO](#panelmate)
@@ -25,10 +24,10 @@
   * [S2 HV Control TODO](#s2-mcp-control)	
   
 * [Analysis](#analysis)
-  * [Unpacking NSCL data TODO](#unpacking-nscl-data)
-  * [Unpacking TPC data TODO](#unpacking-tpc-data)
+  * [Unpacking NSCL data](#unpacking-nscl-data)
+  * [Unpacking TPC data](#unpacking-tpc-data)
   * [Merging NSCL/TPC data TODO](#merging-runs)
-  * [Viewing TPC data TODO](#viewing-tpc-data)
+  * [Viewing TPC data](#viewing-tpc-data)
 
 * [FAQs](#faqs)
   * [Firefox not working](#firefox)
