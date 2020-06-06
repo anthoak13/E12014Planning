@@ -193,6 +193,21 @@ To open/close the valve, select "G207VV Vent Valve" then use the buttons in the 
 ## MCP
 
 ### FP MCP Control
+The high voltage at the FP is split between a Iseg NHS nim module and Iseg VHQ VME module. The NHS controls the HV for the MCP and E-field on channels 1 and 0, respectively. The VHQ the HV for the foil on channel A.
+
+The NHS is controlled through the isegControl2 program, launched with the command `isegControl`. When it opens you should see this window
+
+![IsegControl](https://raw.githubusercontent.com/anthoak13/E12014Planning/master/e12014/pics/IsegControl.png)
+
+If it doesn't load the module automatically, go to Project->New. You should see a new window, then select New Connection on the bottom, then set the connection type to USB port (SCPI protocol) and set the port to ttyUSB2. Hit connect and it should detect the module and load the configuration. You should see something like
+
+![IsegControlProject](https://raw.githubusercontent.com/anthoak13/E12014Planning/master/e12014/pics/IsegControlProject.png)
+
+You should now be able to control the module. Double clicking Vset on a channel allows you to change the voltage to ramp to. You can ramp on/off by double clicking Off/On.
+
+The HV for the foil can be launched by running `hvFPFoil.` You should see something like, but channel A should be beige not red.
+
+![vhqFPfoil](https://raw.githubusercontent.com/anthoak13/E12014Planning/master/e12014/pics/vhqFPfoil.png)
 
 ### S2 MCP Control
 
