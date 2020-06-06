@@ -1,12 +1,12 @@
 # Manual for E12014
 
 * [Running the DAQ](#running-the-daq)
-  * [Connecting to DAQ TODO](#connecting-to-the-daq)
+  * [Connecting to DAQ](#connecting-to-the-daq)
   * [Readout Shell](#readout-shell)
   * [SpecTcl](#spectcl)
-  * [Scalers](#scalers)
+  * [Scalers TODO](#scalers)
   * [Signal Switcher](#signal-switcher)
-  * [PulserGUI](#pulsergui)
+  * [PulserGUI TODO](#pulsergui)
   * [Hornet Control](#hornet-control)
   * [ELog TODO](#elog)
   * [PanelMate TODO](#panelmate)
@@ -48,14 +48,14 @@ The DAQ is setup to be run from any computer on the DAQ network, including U3PC'
 For this experiment we will be running everything from Windows machines. Right now there are three computers setup for this one each in Data U3, Data U5, S2 Vault. Each of these computers is configured to allow sshing into fishtank, daq network, or at-tpc network through cygwin using pre-loaded ssh keys.
 
 To connect to open a new cygwin terminal. There are a number of aliases to connect to other computers, they are:
-'''
+```
 s2: connects to the daq computer in s2
 u3: connects to a daq computer in u3
 u5: connects to a daq computer in u5
 spdaq29: connects to the daq computer in the A1900
 spdaq48: connects to the daq computer in S2
 fishtank: connects to fishtank
-'''
+```
 
 To keep life simple and consistant, things like ReadoutShell and SpecTcl should be run from u5.
 
