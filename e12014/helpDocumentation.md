@@ -20,7 +20,7 @@
   * [CAEN Shaper TODO](#n568-control)
 
 * [MCP](#mcp)
-  * [FP HV Control TODO](#fp-mcp-control)
+  * [FP HV Control](#fp-mcp-control)
   * [S2 HV Control TODO](#s2-mcp-control)	
   
 * [Analysis](#analysis)
@@ -207,7 +207,7 @@ You should now be able to control the module. Double clicking Vset on a channel 
 
 The HV for the foil can be launched by running `hvFPFoil.` You should see something like, but channel A should be beige not red.
 
-![vhqFPfoil](https://raw.githubusercontent.com/anthoak13/E12014Planning/master/e12014/pics/vhqFPfoil.png)
+![vhqFPfoil](https://raw.githubusercontent.com/anthoak13/E12014Planning/master/e12014/pics/vhqFpfoil.png)
 
 ### S2 MCP Control
 
