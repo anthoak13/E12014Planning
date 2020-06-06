@@ -4,12 +4,12 @@
   * [Connecting to DAQ](#connecting-to-the-daq)
   * [Readout Shell](#readout-shell)
   * [SpecTcl](#spectcl)
-  * [Scalers TODO](#scalers)
+  * [Scalers](#scalers)
   * [Signal Switcher](#signal-switcher)
   * [PulserGUI TODO](#pulsergui)
   * [Hornet Control](#hornet-control)
-  * [ELog TODO](#elog)
-  * [PanelMate TODO](#panelmate)
+  * [ELog](#elog)
+  * [PanelMate](#panelmate)
   
 * [Vacuum system](#vacuum-system)
   * [Pumping TODO](#pumping)
@@ -102,7 +102,10 @@ Data should now be coming in. At list point, you will want to load in and def-fi
 TODO: Put in list of files
 
 ### Scalers
-Coming soon!
+To launch the scalers program do `Scalers` you should see
+
+![Scalers](https://github.com/anthoak13/E12014Planning/raw/master/e12014/pics/Scalers.png) 
+
 
 ### Signal Switcher
 The signal switcher is a multiplexer used to look at signals in the data U. Outputs 0-4 are patched to channels ??,??,??,??, respectively.
@@ -146,10 +149,32 @@ If the ion gauge is off, then you should see something like
 The **On/Off** button toggles the power status. It will take up to 15 seconds to turn on, so be patient. You can also read the power status and any error from the status bar below the pressure reading.
 
 ### ELog
-Coming soon!
+The server that host the elog must be launcher from fishtank. There is a script that will automate the launch. To start the elog run `elogStart`. This will open a ssh connection to `walleye` and start the server in a screen named `elog`. You may have to press enter after the screen opens to get the text to terminal to update. You should see the following
+
+![ELogStart](https://raw.githubusercontent.com/anthoak13/E12014Planning/master/e12014/pics/ELogStart.png)
+
+Alternatively, do
+```
+ssh e12014@walleye
+./runELog.sh
+```
+
+The elog is now accessable at [http://walleye:e12014/elog](http://walleye:e12014/elog) from within the DAQ network. A shortcut to opening the elog is the command `elogOpen` which opens a firefox session on an appropiate computer. The elog looks like
+
+![ELogOnline](https://raw.githubusercontent.com/anthoak13/E12014Planning/master/e12014/pics/ELogOnline.png)
+
+Once the elog is opened the server should look like
+
+![ELogServer](https://raw.githubusercontent.com/anthoak13/E12014Planning/master/e12014/pics/ELogServer.png)
+
+and entries can be edited/added.
 
 ### PanelMate
-Coming soon!
+PanelMate is part of the controls network. For this experiment it will mostly be used in pumping/venting to control the interlocked vent valve (G207VV). From one of the computers on the Controls network, open PanelMate, then open the config file S2_Vault. Navigate to page 08. You should see
+
+![PanelMate](https://raw.githubusercontent.com/anthoak13/E12014Planning/master/e12014/pics/PanelMate.jpg)
+
+To open/close the valve, select "G207VV Vent Valve" then use the buttons in the upper right to open/close it.
 
 ## Vacuum system
 
