@@ -45,10 +45,23 @@ The DAQ is setup to be run from any computer on the DAQ network, including U3PC'
 3. Take data with [Readoutshell](#readout-shell)
 
 ### Connecting to the DAQ
-Coming soon!
+For this experiment we will be running everything from Windows machines. Right now there are three computers setup for this one each in Data U3, Data U5, S2 Vault. Each of these computers is configured to allow sshing into fishtank, daq network, or at-tpc network through cygwin using pre-loaded ssh keys.
+
+To connect to open a new cygwin terminal. There are a number of aliases to connect to other computers, they are:
+'''
+s2: connects to the daq computer in s2
+u3: connects to a daq computer in u3
+u5: connects to a daq computer in u5
+spdaq29: connects to the daq computer in the A1900
+spdaq48: connects to the daq computer in S2
+fishtank: connects to fishtank
+'''
+
+To keep life simple and consistant, things like ReadoutShell and SpecTcl should be run from u5.
+
 
 ### Readout shell
-From the home directory of account e15507, run `./ReadoutShell`. This should open a window like 
+From the DAQ network on account e12014, run `ReadoutShell`. This should open a window like 
 
 ![Readoushell Image](https://github.com/anthoak13/E12014Planning/raw/master/e15507/ReadoutShell.png). 
 
@@ -58,18 +71,13 @@ Then press start and you should see the VME crate attach like
 
 If this doesn't happen, make sure the VME crate is on and look at the section for [restarting the DAQ](#restarting-daq).
 
-You are now ready to take data. If you want to record data, make sure the record button is ticked. You can verify data is coming in by running `./dumper` from the home directory. This just outputs everything being read in by the DAQ. You can also pass valid dumper command arguments through this wrapped. For example `./dumper --count 10` will only output the first 10 items. A full list of valid argumets can be found with `man dumper`. 
+You are now ready to take data. If you want to record data, make sure the record button is ticked. You can verify data is coming in by running `dumper` from the computer that is recording data (not necessarily the computer running ReadoutShell). This just outputs everything being read in by the DAQ. You can also pass valid dumper command arguments through this wrapped. For example `dumper --count 10` will only output the first 10 items. A full list of valid argumets can be found with `man dumper`. 
 
 ### SpecTcl
 
-**Right now, TTree generation is not completely automated in SpecTcl. This means there is an additional step that has to be done after each startup.**
-
 #### Launching SpecTcl
 
-To launch SpecTcl, `cd SpecTcl` and then `./SpecTcl`. It will take a few seconds for it to fully load.
-After it is fully loaded, go to the terminal you used to open SpecTcl and type the command `roottree create tr *`. You can verify it worked with the command `roottree list`. For those curious, you can find the documentation for this command [here].(http://docs.nscl.msu.edu/daq/newsite/spectcl-5.0/cmdref/r3059.html) At this point that command line should look something like 
-
-![SpecTcl tree](https://github.com/anthoak13/E12014Planning/raw/master/e15507/SpecTclTree.png)
+First, make sure you are on a DAQ network computer (ie u5). To launch SpecTcl, `cd ~/SpecTcl` and then `./SpecTcl`. It will take a few seconds for it to fully load.
 
 #### Closing SpecTcl
 To close SpecTcl, you should always use the purple **Exit** button on the bottom of this window 
@@ -89,22 +97,21 @@ For offline, the .evt files are located in ~/experiment/run#/
 
 ![SpecTcl Offline](https://github.com/anthoak13/E12014Planning/raw/master/e15507/SpecTclOffline.png)
 
-Data should now be coming in. At list point, you will want to load in and def-files, making sure Cumulative is checked. Now window files can be 
+Data should now be coming in. At list point, you will want to load in and def-files, making sure Cumulative is checked. Now window files can be loaded too. Below is a list of def and win files.
 
-
-Every parameter defined in SpecTcl will be written to a TTree with the name `run-#.root` in `~/SpecTcl`. After each run, this should be moved out of this directory to the analysis directory with 
-```
-scp ~/SpecTcl/*.root e15507@fishtank:/mnt/analysis/e15507/SpecTclTTree/
-rm ~/SpecTcl/*.root
-```
-
-In order for a TTree to be generated with online data, SpecTcl must be connected to the data source before the run starts. Otherwise it misses the start_run ringbuffer item.
+TODO: Put in list of files
 
 ### Scalers
 Coming soon!
 
 ### Signal Switcher
-Coming soon!
+The signal switcher is a multiplexer used to look at signals in the data U. Outputs 0-4 are patched to channels ??,??,??,??, respectively.
+
+To launch the program, run `switch`. You should see a window like 
+
+![SignalSwitcher](https://github.com/anthoak13/E12014Planning/raw/master/e12014/pics/SignalSwitcher.png) 
+
+You can then drag the bars to select any one of the 32 availible channels. The channel mapping can be found here. TODO put channel mapping. 
 
 ### PulserGUI
 
